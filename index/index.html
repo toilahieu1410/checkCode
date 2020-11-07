@@ -7,7 +7,8 @@
     <title>HopLongPortal</title>
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./css/hoplong.bootstrap.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
@@ -54,90 +55,102 @@
     <div class="img-background">
         <img src="./images/background.jpg" width="100%" height="300px" alt="">
     </div>
-    <div class="main-content">
-        <div class="container shadow-lg my-md-4 ">
-            <div class="row">
-                <div class="col-12 col-md-8 p-4">
-                    <div class="mb-4">
-                        <div style="font-size: 23px;">
-                            <span class=" text-primary font-weight-bolder">Kiểm tra giá & tồn kho</span>
+    <div class="main-content section">
+        <div class="container my-md-4 ">
+            <div class="row check">
+                <div class="col-12 col-md-9">
+                    <div class="card shadow-sm bg-white">
+                        <div class="card-body">
+                            <div class="mb-4">
+                                <div style="font-size: 23px;">
+                                    <span class="text-primary font-weight-bolder">Kiểm tra giá & tồn kho</span>
+                                </div>
+                                <div>
+                                    <span>Để kiểm tra giá và kho cho nhiều mã cùng 1 lúc <a href="#"> nhấp vào đây</a></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-7 mb-2">
+                                    <span>Mã sản phẩm</span>
+                                    <input type="text" class="form-control" placeholder="Nhập mã sản phẩm">
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <span>Số lượng</span>
+                                    <input type="number" class="form-control" min="0" placeholder="Số lượng">
+                                </div>
+                                <div class="col-12 col-md-2">
+                                    <button class="btn btn-primary mt-4">Check</button>
+                                </div>
+                            </div>
+                            <div class="">
+                                <span style="font-size: 23px;" class=" text-primary font-weight-bolder">Kiểm tra tình trạng đơn hàng</span>
+                            
+                                <div class="row">
+                                    <div class="col-12 col-md-10">
+                                        <span>Mã đơn hàng/ tên đơn hàng</span>
+                                        <input type="text" class="form-control" placeholder="Nhập mã đơn hàng hoặc tên đơn hàng">
+                                    </div>
+                                    <div class="col-12 col-md-2">
+                                        <button class="btn btn-primary mt-4">Check</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <span>Để kiểm tra giá và kho cho nhiều mã cùng 1 lúc <a href="#"> nhấp vào đây</a></span>
-                        </div>
-
+                        
                     </div>
-                    <div class="row mb-3">
-                        <div class="col-12 col-md-8 mb-2">
-                            <span>Mã sản phẩm</span>
-                            <input type="text" class="form-control" placeholder="Nhập mã sản phẩm">
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <span>Số lượng</span>
-                            <input type="number" class="form-control" min="0" placeholder="Số lượng">
-                        </div>
-                        <div class="col-12 col-md-1">
-                            <button class="btn btn-primary mt-4">Check</button>
-                        </div>
-                    </div>
-                    <div style="font-size: 23px;">
-                        <span class=" text-primary font-weight-bolder">Kiểm tra tình trạng đơn hàng</span>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-11">
-                            <span>Mã đơn hàng/ tên đơn hàng</span>
-                            <input type="text" class="form-control" placeholder="Nhập mã đơn hàng hoặc tên đơn hàng">
-                        </div>
-                        <div class="col-12 col-md-1">
-                            <button class="btn btn-primary mt-4">Check</button>
-                        </div>
-                    </div>
+                    
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="d-flex p-4">
-                        <img src="./images/customer.png" class="mr-3" width="60px" height="60px" alt="">
-                        <div class="">
-                            <span class="text-primary font-weight-bolder">Nguyen Van A</span>
-                            <p>Khách hàng thân thiết</p>
+                <div class="col-12 col-md-3">
+                    <div class=" card bg-white shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <img src="./images/customer.png" width="60px" height="60px" alt="">
+                                <div class="mx-3">
+                                    <span class="text-primary card-title">Nguyen Van A</span>
+                                    <p class="card-text">Khách hàng thân thiết</p>
+                                </div>
+                            </div>
+                            <div class="py-4">
+                                <ul class="list-unstyled">
+                                    <li class="">
+                                        <a href="#" class="card-text">Thông tin tài khoản</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" class="card-text">Tin nhắn</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" class="card-text">Đơn hàng của tôi</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#" class="card-text">Mã giảm giá</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        
                     </div>
-                    <div class=" px-4">
-                        <ul class="list-unstyled">
-                            <li class="my-3">
-                                <a href="#">Thông tin tài khoản</a>
-                            </li>
-                            <li class="my-3">
-                                <a href="#">Tin nhắn</a>
-                            </li>
-                            <li class="my-3">
-                                <a href="#">Đơn hàng của tôi</a>
-                            </li>
-                            <li class="my-3">
-                                <a href="#">Mã giảm giá</a>
-                            </li>
-                        </ul>
-                    </div>
+                    
 
                 </div>
             </div>
         </div>
-        <div class="container shadow-lg my-md-4 py-md-3">
-            <div class="card-deck">
-                <div class="card">
+        <div class="container my-md-4 py-md-3">
+            <div class="card-deck ">
+                <div class="card shadow-sm">
                     <img class="card-img-top" src="./images/banner web- mua hang.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title text-primary">Đặt hàng mới nhất</h4>
                         <p class="card-text">Sử dụng hàng mới nhất được cung cấp chất lượng cao, bảo hành và đổi trả trong vòng 7 ngày sử dụng</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card shadow-sm">
                     <img class="card-img-top" src="./images/banner web- mua hang.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title text-primary">Đặt hàng mới nhất</h4>
                         <p class="card-text">Sử dụng hàng mới nhất được cung cấp chất lượng cao, bảo hành và đổi trả trong vòng 7 ngày sử dụng</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card shadow-sm">
                     <img class="card-img-top" src="./images/banner web- mua hang.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title text-primary">Đặt hàng mới nhất</h4>
@@ -147,9 +160,87 @@
             </div>
 
         </div>
-        <div class="container">
-
-        </div>
+        <section id="sectionProducts" class="section "> 
+            <div class="container">
+                <div class="product-content bg-white shadow-sm rounded-sm border">
+                    <div class="shadow-sm bg-white border">
+                        <h5 class="text-uppercase text-center text-primary card-title py-4">Sản phấm tương tự</h5>
+                        <div class="divider mx-auto my-3"></div>
+    
+                        <div class="swiper-content">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card card-product border-0">
+                                        <img src="./images/product.jpg" width="270px" alt="ten sp">
+                                        <div class="card-body">
+                                              <p class="card-text"> MC-20N AC220V</p>
+                                              <del class="text-muted">1.500.000</del>
+                                              <span class="text-primary font-weight-bolder">1.000.000</span>
+                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
+                                        </div>
+                                        <div class="card-img-overlay bg-transparent-white-50 d-flex justify-content-center align-items-center">
+                                            <a href="#" class="btn btn-sm btn-primary shadow">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <img src="./images/product.jpg" width="270px" alt="">
+                                        <div class="card-body text-center">
+                                            <p class="card-text"> MC-20N AC220V</p>
+                                              <del class="text-muted">1.500.000</del>
+                                              <span class="text-primary font-weight-bolder">1.000.000</span>
+                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <img src="./images/product.jpg" width="270px" alt="">
+                                        <div class="card-body text-center">
+                                            <p class="card-text"> MC-20N AC220V</p>
+                                              <del class="text-muted">1.500.000</del>
+                                              <span class="text-primary font-weight-bolder">1.000.000</span>
+                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <img src="./images/product.jpg" width="270px"  alt="">
+                                        <div class="card-body text-center">
+                                            <p class="card-text"> MC-20N AC220V</p>
+                                              <del class="text-muted">1.500.000</del>
+                                              <span class="text-primary font-weight-bolder">1.000.000</span>
+                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <img src="./images/product.jpg" width="270px" alt="">
+                                        <div class="card-body text-center">
+                                            <p class="card-text"> MC-20N AC220V</p>
+                                              <del class="text-muted">1.500.000</del>
+                                              <span class="text-primary font-weight-bolder">1.000.000</span>
+                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </div>
     <footer class="bg-transparent-10 ">
         <div class="container pt-4">
@@ -208,6 +299,118 @@
             <small>Copyright © 2020 hoplongtech.com All rights reserved.</small>
         </div>
     </footer>
+
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiperSlide = new Swiper('#sectionSlides .swiper-container', {
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    var swiperProduct = new Swiper('#sectionProducts .swiper-container', {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        freeMode: true,
+        centeredSlides: false,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                centeredSlides: true,
+                freeMode: false,
+            },
+            480: {
+                slidesPerView: 1,
+                centeredSlides: true,
+                freeMode: false,
+            },
+            768: {
+                slidesPerView: 2,
+                centeredSlides: true,
+                freeMode: false,
+            },
+            1200: {
+                slidesPerView: 3,
+                centeredSlides: false,
+                freeMode: true,
+            },
+
+            1400: {
+                slidesPerView: 4,
+                centeredSlides: false,
+                freeMode: true,
+            },
+            1900: {
+                slidesPerView: 5,
+                centeredSlides: false,
+                freeMode: true,
+            },
+        }
+    });
+
+    var swiperBranchs = new Swiper('#sectionBranchs .swiper-container', {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        freeMode: true,
+        centeredSlides: false,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                centeredSlides: true,
+                freeMode: false,
+            },
+            480: {
+                slidesPerView: 2,
+                centeredSlides: true,
+                freeMode: false,
+            },
+            768: {
+                slidesPerView: 3,
+                centeredSlides: true,
+                freeMode: false,
+            },
+            1200: {
+                slidesPerView: 5,
+                centeredSlides: false,
+                freeMode: true,
+            },
+
+            1400: {
+                slidesPerView: 6,
+                centeredSlides: false,
+                freeMode: true,
+            },
+            1900: {
+                slidesPerView: 7,
+                centeredSlides: false,
+                freeMode: true,
+            },
+        }
+    });
+</script>
 </body>
 
 </html>
