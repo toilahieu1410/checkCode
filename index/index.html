@@ -7,10 +7,12 @@
     <title>HopLongPortal</title>
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./css/hoplong.bootstrap.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -55,7 +57,7 @@
     <div class="img-background">
         <img src="./images/background.jpg" width="100%" height="300px" alt="">
     </div>
-    <div class="main-content section">
+    <div class="main-content">
         <div class="container my-md-4 ">
             <div class="row check">
                 <div class="col-12 col-md-9">
@@ -160,88 +162,80 @@
             </div>
 
         </div>
-        <section id="sectionProducts" class="section "> 
+        <section id="sectionProducts" class="section pt-2 mb-2 mb-lg-4">
             <div class="container">
                 <div class="product-content bg-white shadow-sm rounded-sm border">
                     <div class="shadow-sm bg-white border">
                         <h5 class="text-uppercase text-center text-primary card-title py-4">Sản phấm tương tự</h5>
                         <div class="divider mx-auto my-3"></div>
-    
-                        <div class="swiper-content">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="card card-product border-0">
-                                        <img src="./images/product.jpg" width="270px" alt="ten sp">
-                                        <div class="card-body">
-                                              <p class="card-text"> MC-20N AC220V</p>
-                                              <del class="text-muted">1.500.000</del>
-                                              <span class="text-primary font-weight-bolder">1.000.000</span>
-                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
-                                        </div>
-                                        <div class="card-img-overlay bg-transparent-white-50 d-flex justify-content-center align-items-center">
-                                            <a href="#" class="btn btn-sm btn-primary shadow">Xem chi tiết</a>
-                                        </div>
-                                    </div>
+                        
+                        <div class="owl-caroulsel-product owl-carousel">
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="card border-0">
-                                        <img src="./images/product.jpg" width="270px" alt="">
-                                        <div class="card-body text-center">
-                                            <p class="card-text"> MC-20N AC220V</p>
-                                              <del class="text-muted">1.500.000</del>
-                                              <span class="text-primary font-weight-bolder">1.000.000</span>
-                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
-                                        </div>
-                                    
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card border-0">
-                                        <img src="./images/product.jpg" width="270px" alt="">
-                                        <div class="card-body text-center">
-                                            <p class="card-text"> MC-20N AC220V</p>
-                                              <del class="text-muted">1.500.000</del>
-                                              <span class="text-primary font-weight-bolder">1.000.000</span>
-                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card border-0">
-                                        <img src="./images/product.jpg" width="270px"  alt="">
-                                        <div class="card-body text-center">
-                                            <p class="card-text"> MC-20N AC220V</p>
-                                              <del class="text-muted">1.500.000</del>
-                                              <span class="text-primary font-weight-bolder">1.000.000</span>
-                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card border-0">
-                                        <img src="./images/product.jpg" width="270px" alt="">
-                                        <div class="card-body text-center">
-                                            <p class="card-text"> MC-20N AC220V</p>
-                                              <del class="text-muted">1.500.000</del>
-                                              <span class="text-primary font-weight-bolder">1.000.000</span>
-                                              <p class="text-danger font-weight-bolder">Giảm 33%</p>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
                             </div>
-                            
-                        </div>
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                <div class="card-body text-center">
+                                    <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                    <del class="text-muted font-weight-bolder">2.000.000</del>
+                                    <p class="card-text">1.500.000</p>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
         </section>
         
     </div>
+   
     <footer class="bg-transparent-10 ">
         <div class="container pt-4">
             <div class="d-none d-lg-flex justify-content-between">
@@ -299,118 +293,70 @@
             <small>Copyright © 2020 hoplongtech.com All rights reserved.</small>
         </div>
     </footer>
-
-    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script>
+        jQuery(".owl-carousel-banner").owlCarousel({
+    autoplay: true,
+    lazyLoad: true,
+    loop: true,
+    margin: 50,
+    autoHeight:true,
+    autoplayTimeout: 7000,
+    smartSpeed: 800,
+ 
+    dots:false,
+    responsive: {
+      0: {
+        items: 1,
+  
+      },
+  
+    }
+  });
+ </script>
+ <script>
+     jQuery(".owl-carousel-item, .owl-caroulsel-product").owlCarousel({
+    autoplay: true,
+    lazyLoad: true,
+    loop: true,
+    margin: 50,
+     /*
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    */
+    nav: true,
+    responsiveClass: true,
+    autoHeight: true,
+    autoplayTimeout: 7000,
+    smartSpeed: 800,
+ 
+    dots:false,
+    responsive: {
+      0: {
+        items: 2
+      },
+  
+      600: {
+        items: 2
+      },
+  
+      1024: {
+        items: 3
+      },
+  
+      1366: {
+        items: 4
+      },
+      1500: {
+        items: 5
+      }
+    }
+  });
+  </script>s
+<script src="./js/jquery-3.3.1.slim.min.js"></script>
 <script src="./js/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    var swiperSlide = new Swiper('#sectionSlides .swiper-container', {
-        centeredSlides: true,
-        loop: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-
-    var swiperProduct = new Swiper('#sectionProducts .swiper-container', {
-        slidesPerView: 4,
-        spaceBetween: 0,
-        freeMode: true,
-        centeredSlides: false,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            320: {
-                slidesPerView: 1,
-                centeredSlides: true,
-                freeMode: false,
-            },
-            480: {
-                slidesPerView: 1,
-                centeredSlides: true,
-                freeMode: false,
-            },
-            768: {
-                slidesPerView: 2,
-                centeredSlides: true,
-                freeMode: false,
-            },
-            1200: {
-                slidesPerView: 3,
-                centeredSlides: false,
-                freeMode: true,
-            },
-
-            1400: {
-                slidesPerView: 4,
-                centeredSlides: false,
-                freeMode: true,
-            },
-            1900: {
-                slidesPerView: 5,
-                centeredSlides: false,
-                freeMode: true,
-            },
-        }
-    });
-
-    var swiperBranchs = new Swiper('#sectionBranchs .swiper-container', {
-        slidesPerView: 4,
-        spaceBetween: 0,
-        freeMode: true,
-        centeredSlides: false,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            320: {
-                slidesPerView: 1,
-                centeredSlides: true,
-                freeMode: false,
-            },
-            480: {
-                slidesPerView: 2,
-                centeredSlides: true,
-                freeMode: false,
-            },
-            768: {
-                slidesPerView: 3,
-                centeredSlides: true,
-                freeMode: false,
-            },
-            1200: {
-                slidesPerView: 5,
-                centeredSlides: false,
-                freeMode: true,
-            },
-
-            1400: {
-                slidesPerView: 6,
-                centeredSlides: false,
-                freeMode: true,
-            },
-            1900: {
-                slidesPerView: 7,
-                centeredSlides: false,
-                freeMode: true,
-            },
-        }
-    });
-</script>
+<script src="./js/swiper-bundle.min.js"></script>
+       
 </body>
 
 </html>
