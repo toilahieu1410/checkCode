@@ -1,5 +1,14 @@
+
+// index
 body {
     font-family: 'Roboto', sans-serif;
+    header{
+        .divider {
+            width: 150px;
+            height: 1px;
+            background: var(--primary);
+        }
+    }
     .breadcrumb1 {
         margin-top: 56px;
         background: #f4f6f9;
@@ -18,5 +27,70 @@ body {
     }
     ul li a {
         color: black;
+    }
+}
+
+// product-category
+body {
+    font-family: 'Roboto', sans-serif;
+    header{
+        .divider {
+            width: 300px;
+            height: 1px;
+            background: var(--primary);
+        }
+    }
+    .breadcrumb1 {
+        margin-top: 56px;
+        background: #f4f6f9;
+    }
+    .main-content{
+        .product-content{
+            .divider {
+                width: 150px;
+                height: 1px;
+                background: var(--primary);
+            }
+            .owl-nav {
+                display: none;
+            }
+        }
+    }
+    ul li a {
+        color: black;
+    }
+    .product-category{
+        .product-category-left{
+            .category-title
+            {
+                font-size: 30px;
+            }
+            .divider {
+                width: 400px;
+                height: 1px;
+                background: var(--primary);
+                margin-bottom: 30px;
+            }
+            border-left: 1px solid rgba(146, 145, 145, 0.623);
+            .pagination{
+                display: inline-block;
+            }
+            .pagination  {
+                a{
+                    color: black;
+                    float:left;
+                    padding: 8px 16px;
+                    text-decoration: none;
+                    transition: background-color .3s;
+                    border: 1px solid #ddd;
+                }
+                a.active {
+                    background-color: #26a0f1;
+                    color: white;
+                    border: 1px solid #26a0f1;
+                  }
+              }
+            .pagination a:hover:not(.active) {background-color: #ddd;}
+        }
     }
 }
