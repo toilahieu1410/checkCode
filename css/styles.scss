@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    .breadcrumb1 {
+        margin-top: 56px;
+        background: #f4f6f9;
+    }
+    .main-content{
+        .product-content{
+            .divider {
+                width: 150px;
+                height: 1px;
+                background: var(--primary);
+            }
+            .owl-nav {
+                display: none;
+            }
+        }
+    }
+    ul li a {
+        color: black;
+    }
+}

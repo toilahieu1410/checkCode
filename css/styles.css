@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body .breadcrumb1 {
+  margin-top: 56px;
+  background: #f4f6f9;
+}
+
+body .main-content .product-content .divider {
+  width: 150px;
+  height: 1px;
+  background: var(--primary);
+}
+
+body .main-content .product-content .owl-nav {
+  display: none;
+}
+
+body ul li a {
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
