@@ -15,8 +15,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
-
 <body>
+    <!-- header -->
     <header class="navbar-dark bg-primary fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg justify-content-start justify-content-between px-0">
@@ -126,97 +126,100 @@
         <div class="container">
             <div class="row justify-content-between">
                 <ol class="breadcrumb col py-1 my-0 mr-auto bg-transparent">
-                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Đổi mật khẩu</li>
+                    <li class="breadcrumb-item "><a href="./index1.html" class="text-decoration-none">Trang chủ</a></li>
+                    <li class="breadcrumb-item "><a href="./product-category.html" class="text-decoration-none">Danh mục sản phẩm</a></li>
+                    <li class="breadcrumb-item "><a href="./product-category1.html" class="text-decoration-none"> Chi tiết danh mục sản phẩm</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Chi tiết sản phẩm</li>
                 </ol>
             </div>
         </div>
     </div>
     <!-- breadcrumb -->
+
+
+
     <div class="main-content">
-        <div class="container bg-white my-lg-4 shadow-sm">
-            <div class="row shadow-sm">
-                <div class="col-md-8 d-flex p-md-3">
-                    <img src="./images/customer.png" width="10%" />
-                    <div class="">
-                        <div class="ml-md-4" style="color: #3498DB; font-size: 30px;"> Nguyen Van A</div>
-                        <div class="ml-md-4">Khách hàng thân thiết</div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-md-3">
-                    <div class="cost-and-messange">
-                        <div class="d-flex">
-                            <p class="mr-md-2">35 tin chưa đọc</p>
-                            <a href="#"><img src="./images/messange.png" width="30"></a>
-                        </div>
-                        <div class="nav">
-                            <p class="mr-md-2">1000 điểm</p>
-                            <a href="#"><img src="./images/cost.png" width="30"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="list col-md-4">
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#" class="text-decoration-none">Dashboad</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-decoration-none">Thông tin tài khoản</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-decoration-none">Tin nhắn</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-decoration-none">Đơn hàng của tôi</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-decoration-none">Đơn hàng nháp</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-decoration-none">Địa chỉ giao hàng</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-decoration-none">Voucher/Coupon</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class=" text-decoration-none text-primary">Đổi mật khẩu</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-8 pl-4">
-                    <div class="py-md-2 text-primary">
-                        <span class=" navbar-brand font-weight-bolder">Đổi mật khẩu</span>
-                    </div>
-                    <div class="mt-md-4">
-
-                        <div class="form-group">
-                            <label for="" class="font-weight-bolder">Mật khẩu cũ</label>
-                            <input type="text" name="matkhau" id="" class="form-control " placeholder="Mặt khẩu cũ">
-                        </div>
-                        <div class="form-group">
-                            <label for="" class="font-weight-bolder">Mật khẩu mới</label>
-                            <input type="text" name="matkhau1" id="" class="form-control" placeholder="Mật khẩu mới">
-                        </div>
-                        <div class="form-group">
-                            <label for="" class="font-weight-bolder">Nhập lại mật khẩu mới</label>
-                            <input type="text" name="matkhau2" id="" class="form-control" placeholder="Nhập lại mật khẩu mới">
-                        </div>
-
-                    </div>
-                    <div class="mb-md-3">
-                        <button class="btn btn-primary">Đổi mật khẩu</button>
-                    </div>
-                </div>
+        <div class="container my-lg-4">
+            <div class="">
 
             </div>
-
+            <div class="">
+                
+            </div>
+            <section id="sectionProducts" class="section pt-2 mb-2 mb-lg-4">
+                <div class="container">
+                    <div class="product-content bg-white shadow-sm rounded-sm border">
+                        <div class="shadow-sm bg-white border">
+                            <h5 class="text-uppercase text-center text-primary card-title pt-4 ">Sản phấm tương tự</h5>
+                            <div class="divider mx-auto my-3"></div>
+    
+                            <div class="owl-caroulsel-product owl-carousel">
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="./images/product.jpg" class="owl-lazy" alt="">
+                                    <div class="card-body text-center">
+                                        <span class="text-primary font-weight-bolder">WM02-20 AC220V</span>
+                                        <del class="text-muted font-weight-bolder">2.000.000 VNĐ</del>
+                                        <p class="card-text text-danger">Mới 1.500.000 VNĐ</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
-
-    <footer class="bg-transparent-10 fixed-bottom">
+    <!-- footer -->
+    <footer class="bg-transparent-10 ">
         <div class="container pt-4">
             <div class="d-none d-lg-flex justify-content-between">
                 <div class="pr-3">
@@ -273,7 +276,55 @@
             <small>Copyright © 2020 hoplongtech.com All rights reserved.</small>
         </div>
     </footer>
+    <!-- end footer -->
+    <script>
+        jQuery(".owl-carousel-item, .owl-caroulsel-product").owlCarousel({
+            autoplay: true,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            lazyLoad: true,
+            loop: true,
+            margin: 20,
+            /*
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    */
+            nav: true,
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 800,
+
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                600: {
+                    items: 2
+                },
+
+                1024: {
+                    items: 3
+                },
+
+                1366: {
+                    items: 4
+                },
+                1500: {
+                    items: 5
+                }
+            }
+        });
+    </script>
+    <script>
+        $('.sub-menu ul').hide();
+        $(".sub-menu a").click(function () {
+            $(this).parent(".sub-menu").children("ul").slideToggle("100");
+            $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+        });
+    </script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
