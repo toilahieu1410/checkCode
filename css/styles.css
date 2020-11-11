@@ -23,6 +23,15 @@ body .main-content .product-content .owl-nav {
   display: none;
 }
 
+body .main-content .product-info .flash-sale-title {
+  font-size: 30px;
+}
+
+body .main-content .product-info .bg-black {
+  background-color: black;
+  color: white;
+}
+
 body .main-content input {
   width: 60%;
 }

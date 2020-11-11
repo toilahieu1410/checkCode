@@ -23,7 +23,18 @@ body {
             .owl-nav {
                 display: none;
             }     
-        }          
+        } 
+        .product-info{
+             .flash-sale-title{
+                    font-size:30px ;
+                }
+            .bg-black{
+               
+                background-color: black;
+                color: white;
+            }
+            
+        }         
     }
     // change password
     .main-content {
@@ -78,6 +89,7 @@ body {
             .pagination a:hover:not(.active) {background-color: #ddd;}
         }
     }
+    
 }
 
 
