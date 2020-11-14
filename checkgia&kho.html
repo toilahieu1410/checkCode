@@ -31,7 +31,7 @@
                             <a class="nav-link" href="./index1.html">Danh mục sản phẩm</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kiểm tra giá & kho</a>
+                            <a class="nav-link" href="./checkgia&kho.html">Kiểm tra giá & kho</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Đặt hàng & Báo giá</a>
@@ -152,57 +152,59 @@
     <div class="main-content">
         <div class="container">
             <div class="head-content bg-white my-md-4 p-md-4 shadow-sm">
-                <div>
+                <div class="border-bottom mb-sm-4">
                     <div>
-                        <span> Kiểm tra giá và kho</span>
+                        <h4 class="font-weight-bolder text-primary"> Kiểm tra giá và kho</h4>
                     </div>
-                    <div>
+                    <div class=" mb-sm-4">
                         Để kiểm tra giá và kho, hãy gõ mã hàng hoặc mô tả sản phẩm và số lượng mong muốn.
                     </div>
                 </div>
                 <div>
                     <div class="form-horizonal">
                         <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <span>
-                                        Chọn ngày báo giá
+                            <div class="d-flex justify-content-between">
+                                <div class="">
+                                    <span class="font-weight-bolder">
+                                        Chọn ngày báo giá:
                                     </span>
                                     <input type="timepicker" class="form-control" placeholder="dd/mm/yy">
                                 </div>
-                                <div class="col-md-6">
-                                    <span>Tải file excel mẫu</span>
+                                <div class="">
+                                    <div>
+                                        <span>Tải file excel mẫu</span>
+                                    </div>
+                                    
                                     <button class="btn bg-transparent-10 text-primary"><i class="fas fa-file-excel"></i>Nhập mã hàng từ file excel</button>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row my-sm-3">
                                 <div class="col-md-4">
-                                    <span>Mã sản phẩm</span>
+                                    <span class="font-weight-bolder">Mã sản phẩm</span>
                                     <input type="text" class="form-control" placeholder="Nhập mã sản phẩm0">
                                 </div>
                                 <div class="col-md-2">
-                                    <span>Số lượng</span>
+                                    <span class="font-weight-bolder">Số lượng</span>
                                     <input type="number" class="form-control" min="0" placeholder="0">
                                 </div>
                                 <div class="col-md-6">
-                                    <span>Mô tả</span>
+                                    <span class="font-weight-bolder">Mô tả</span>
                                     <input type="text" class="form-control" placeholder="Nhập mô tả vào để tìm kiếm">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                <div>
-                    <a href="#" class="text-decoration-none"> + chèn thêm dòng</a>
-                    <button class="btn btn-primary">Kiểm tra</button>
+                <div class="p-3">
+                    <a href="#" class="text-decoration-none"><span>+ chèn thêm dòng</span></a>
+                    <button class="btn btn-primary mx-sm-4">Kiểm tra</button>
                 </div>
             </div>
-            <div class="middle-content bg-white my-md-4 shadow-sm p-4 ">
+            <div class="middle-content bg-white my-sm-4 shadow-sm p-4 ">
                 <div class="d-flex justify-content-between">
                     <div class="">
-                        <h4 class="font-weight-bolder card-title text-primary">Thông tin sản phẩm kiểm tra</h4>
-                        <p>Đã kiểm tra 4 sản phẩm, Ngày báo giá: 25/11/2020</p>
+                        <h4 class="font-weight-bolder text-primary">Thông tin sản phẩm kiểm tra</h4>
+                        <span>Đã kiểm tra 4 sản phẩm, Ngày báo giá: 25/11/2020</span>
                     </div>
                     <div class="">
                         <button class="btn btn-primary mt-sm-3">Thêm tất cả vào giỏ hàng/ yêu cầu báo giá tất cả</button>
@@ -216,10 +218,10 @@
                     <div class="com-md-12">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card-body  bg-white shadow-sm">
-                                    <div >
+                                <div class="card-body bg-white shadow-sm">
+                                    <div class="mb-sm-4">
                                         <div class="d-flex">
-                                            <img src="./images/product.jpg" width="20%" alt="">
+                                            <img src="./images/product.jpg" class="shadow-sm mr-sm-4" width="20%" alt="">
                                             <div>
                                                 <div>
                                                     <span>Mã hàng:</span> <span>EZ9F34116</span>
@@ -230,17 +232,17 @@
                                                 <div>
                                                     <span>Mô tả</span> <span>Easy9- cầu dao tự độn 1P 16A C</span>
                                                 </div>
-                                                <div class="d-flex">
-                                                    <button class="btn bg-transparent-10">Chi tiết sản phẩm</button>
-                                                    <button class="btn btn-primary">Thêm vào giỏ hàng/ yêu cầu báo giá</button>
+                                                <div class="d-flex mt-sm-4">
+                                                    <button class="btn bg-transparent-10 mr-sm-4 text-primary">Chi tiết sản phẩm</button>
+                                                    <button class="btn btn-primary">Thêm vào giỏ hàng / yêu cầu báo giá</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                        <table class="table table-hover table-borderless">
-                                            <thead class="border-bottom">
-                                                <tr width="100%">
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead class="border-bottom font-weight-bolder">
+                                                <tr >
                                                     <td colspan="1">Số</td>
                                                     <td colspan="3">Ngày có hàng dự</td>
                                                     <td colspan="1">Tình trạng</td>
@@ -259,15 +261,33 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead>
+                                                <tr class="border-bottom font-weight-bolder">
+                                                    <td>Ngày báo giá</td>
+                                                    <td>Giá bìa</td>
+                                                    <td>Chiết khấu</td>
+                                                    <td>Đơn giá</td>
+                                                    <td>Tổng giá</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <td>25/09/2020</td>
+                                                <td>1.500.000 vnđ</td>
+                                                <td>35%</td>
+                                                <td>1.000.000 vnđ</td>
+                                                <td>20.000.000 vnđ</td>
+                                            </tbody>
+                                        </table>
                                 
                                 </div>
                                 
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body  bg-white shadow-sm">
-                                    <div >
+                                    <div class="mb-sm-4">
                                         <div class="d-flex">
-                                            <img src="./images/product.jpg" width="20%" alt="">
+                                            <img src="./images/product.jpg" class="shadow-sm mr-sm-4" width="20%" alt="">
                                             <div>
                                                 <div>
                                                     <span>Mã hàng:</span> <span>EZ9F34116</span>
@@ -278,17 +298,17 @@
                                                 <div>
                                                     <span>Mô tả</span> <span>Easy9- cầu dao tự độn 1P 16A C</span>
                                                 </div>
-                                                <div class="d-flex">
-                                                    <button class="btn bg-transparent-10">Chi tiết sản phẩm</button>
-                                                    <button class="btn btn-primary">Thêm vào giỏ hàng/ yêu cầu báo giá</button>
+                                                <div class="d-flex mt-sm-4">
+                                                    <button class="btn bg-transparent-10 mr-sm-4 text-primary">Chi tiết sản phẩm</button>
+                                                    <button class="btn btn-primary">Thêm vào giỏ hàng / yêu cầu báo giá</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                        <table class="table table-hover table-borderless">
-                                            <thead class="border-bottom">
-                                                <tr width="100%">
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead class="border-bottom font-weight-bolder">
+                                                <tr >
                                                     <td colspan="1">Số</td>
                                                     <td colspan="3">Ngày có hàng dự</td>
                                                     <td colspan="1">Tình trạng</td>
@@ -305,6 +325,24 @@
                                                     <td colspan="3">20/09/2020</td>
                                                     <td colspan="1">Không có</td>
                                                 </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead>
+                                                <tr class="border-bottom font-weight-bolder">
+                                                    <td>Ngày báo giá</td>
+                                                    <td>Giá bìa</td>
+                                                    <td>Chiết khấu</td>
+                                                    <td>Đơn giá</td>
+                                                    <td>Tổng giá</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <td>25/09/2020</td>
+                                                <td>1.500.000 vnđ</td>
+                                                <td>35%</td>
+                                                <td>1.000.000 vnđ</td>
+                                                <td>20.000.000 vnđ</td>
                                             </tbody>
                                         </table>
                                 
@@ -316,9 +354,9 @@
                         <div class="row my-sm-4">
                             <div class="col-md-6">
                                 <div class="card-body  bg-white shadow-sm">
-                                    <div >
+                                    <div class="mb-sm-4">
                                         <div class="d-flex">
-                                            <img src="./images/product.jpg" width="20%" alt="">
+                                            <img src="./images/product.jpg" class="shadow-sm mr-sm-4" width="20%" alt="">
                                             <div>
                                                 <div>
                                                     <span>Mã hàng:</span> <span>EZ9F34116</span>
@@ -329,17 +367,17 @@
                                                 <div>
                                                     <span>Mô tả</span> <span>Easy9- cầu dao tự độn 1P 16A C</span>
                                                 </div>
-                                                <div class="d-flex">
-                                                    <button class="btn bg-transparent-10">Chi tiết sản phẩm</button>
-                                                    <button class="btn btn-primary">Thêm vào giỏ hàng/ yêu cầu báo giá</button>
+                                                <div class="d-flex mt-sm-4">
+                                                    <button class="btn bg-transparent-10 mr-sm-4 text-primary">Chi tiết sản phẩm</button>
+                                                    <button class="btn btn-primary">Thêm vào giỏ hàng / yêu cầu báo giá</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                        <table class="table table-hover table-borderless">
-                                            <thead class="border-bottom">
-                                                <tr width="100%">
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead class="border-bottom font-weight-bolder">
+                                                <tr >
                                                     <td colspan="1">Số</td>
                                                     <td colspan="3">Ngày có hàng dự</td>
                                                     <td colspan="1">Tình trạng</td>
@@ -358,15 +396,33 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead>
+                                                <tr class="border-bottom font-weight-bolder">
+                                                    <td>Ngày báo giá</td>
+                                                    <td>Giá bìa</td>
+                                                    <td>Chiết khấu</td>
+                                                    <td>Đơn giá</td>
+                                                    <td>Tổng giá</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <td>25/09/2020</td>
+                                                <td>1.500.000 vnđ</td>
+                                                <td>35%</td>
+                                                <td>1.000.000 vnđ</td>
+                                                <td>20.000.000 vnđ</td>
+                                            </tbody>
+                                        </table>
                                 
                                 </div>
                                 
                             </div>
                             <div class="col-md-6">
-                                <div class="card-body  bg-white shadow-sm">
-                                    <div >
+                                <div class="card-body bg-white shadow-sm">
+                                    <div class="mb-sm-4">
                                         <div class="d-flex">
-                                            <img src="./images/product.jpg" width="20%" alt="">
+                                            <img src="./images/product.jpg" class="shadow-sm mr-sm-4" width="20%" alt="">
                                             <div>
                                                 <div>
                                                     <span>Mã hàng:</span> <span>EZ9F34116</span>
@@ -377,17 +433,17 @@
                                                 <div>
                                                     <span>Mô tả</span> <span>Easy9- cầu dao tự độn 1P 16A C</span>
                                                 </div>
-                                                <div class="d-flex">
-                                                    <button class="btn bg-transparent-10">Chi tiết sản phẩm</button>
-                                                    <button class="btn btn-primary">Thêm vào giỏ hàng/ yêu cầu báo giá</button>
+                                                <div class="d-flex mt-sm-4">
+                                                    <button class="btn bg-transparent-10 mr-sm-4 text-primary">Chi tiết sản phẩm</button>
+                                                    <button class="btn btn-primary">Thêm vào giỏ hàng / yêu cầu báo giá</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                        <table class="table table-hover table-borderless">
-                                            <thead class="border-bottom">
-                                                <tr width="100%">
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead class="border-bottom font-weight-bolder">
+                                                <tr>
                                                     <td colspan="1">Số</td>
                                                     <td colspan="3">Ngày có hàng dự</td>
                                                     <td colspan="1">Tình trạng</td>
@@ -404,6 +460,24 @@
                                                     <td colspan="3">20/09/2020</td>
                                                     <td colspan="1">Không có</td>
                                                 </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table table-hover table-borderless border-top">
+                                            <thead>
+                                                <tr class="border-bottom font-weight-bolder">
+                                                    <td>Ngày báo giá</td>
+                                                    <td>Giá bìa</td>
+                                                    <td>Chiết khấu</td>
+                                                    <td>Đơn giá</td>
+                                                    <td>Tổng giá</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <td>25/09/2020</td>
+                                                <td>1.500.000 vnđ</td>
+                                                <td>35%</td>
+                                                <td>1.000.000 vnđ</td>
+                                                <td>20.000.000 vnđ</td>
                                             </tbody>
                                         </table>
                                 
