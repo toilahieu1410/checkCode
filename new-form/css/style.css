@@ -2,16 +2,6 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.body .main-content .container .navigation li {
-  list-style: none;
-}
-
-.body .main-content .container .header-title-content {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 @media (min-width: 1024px) {
   .navbar-expand-lg {
     -webkit-box-orient: horizontal;
@@ -23,4 +13,4 @@
             justify-content: space-between;
   }
 }
-/*# sourceMappingURL=form-element.css.map */
+/*# sourceMappingURL=style.css.map */
