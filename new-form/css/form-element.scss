@@ -1,0 +1,33 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    header{
+
+    }
+    .main-content{
+        .container{
+          
+                .navigation
+                {
+                    li{
+                        list-style: none;
+                    }     
+                }
+                .header-title-content{
+                    justify-content: space-between;
+                }
+                
+            
+        }
+        
+    }
+
+}
+
+@media (min-width: 1024px)
+{
+    .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+}
+    

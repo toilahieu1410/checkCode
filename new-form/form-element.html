@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>HopLongPortal</title>
+    <title>New form</title>
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 
     <link rel="stylesheet" href="./css/hoplong.bootstrap.css">
+    <link rel="stylesheet" href="./css/form-element.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
@@ -17,7 +18,595 @@
 </head>
 
 <body>
+    <header class="navbar-dark bg-primary fixed-top">
+            <nav class="navbar navbar-expand-lg justify-content-betwwen px-0 ">
+                <div class="px-lg-4 d-flex justify-content-betwwen ">
+                <div class="d-flex col-md-4"> 
+                    <div class="navbar" style="border-right:1px solid rgba(196, 195, 195, 0.411) ;">
+                        <a href="#" class="navbar-brand font-weight-bolder">
+                            HOPLONGTECH
+                        </a>
+                        <button class="btn btn-primary"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" >
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <div class="navbar">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-envelope-square"></i> 
+                            </a>
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-bell"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex col-md-8 justify-content-end" style="align-items: center;" >
+                    <div class="">
+                        <input type="text" class="form-control" placeholder="search..." style="border-radius: 100px;" >
+                    </div>
+                   <!-- users -->
+                    <div class="btn-group ml-0 ml-lg-4">
+                        <a href="#" class="icon-user icon-dropdown text-decoration-none p-2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./img/download.png" width="27px" height="27px" class="" style="border-radius: 50%;" alt="">
+                            <span class="font-weight-bolder text-white">Liem Thanh Dang</span>
+                        </a>
+                        <div class="dropdown-user dropdown-menu dropdown-menu-right mt-0 mt-lg-1 border-0 rounded-sm shadow text-center">
+                            <div class="media-body d-flex p-2" style="width: 300px;">
+                                <img src="./img/download.png" width="60px" height="60px" class="img-card-item" alt="">
+                                <div>
+                                    <span class="card-title text-primary ml-2">Nguyen Van A</span> 
+                                    <a href="#" class="text-decoration-none"><p class="card-text"><i class="fas fa-edit"></i> Chỉnh sửa</p></a>
+                                </div>
+                                
+                            </div>
+                            
+                            <div>
+                                <a href="#" class="text-decoration-none"><i class="fas fa-sign-in-alt"></i>Đăng nhập</a>
+                            </div>
+                            <div>
+                                <a href="#" class="text-decoration-none"><i class="fas fa-sign-out-alt"></i>Đăng xuất</a>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                </div>
+            </nav>
+    </header>
+        <style>
+            .navbar {
+                position: relative;
+                display: block; 
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0.5rem 1rem;
+            }
+        </style>
+    <div class="img-background">
+        <div class="owl-carousel-banner owl-carousel">
+            <div class="item">
+                <img data-src=".img/download.png" height="50px" class="owl-lazy" alt="">
+            </div>
+            <div class="item">
+                <img data-src="../img/download.png" height="50px" class="owl-lazy" alt="">
+            </div>
+            <div class="item">
+                <img data-src="../img/download.png" height="50px" class="owl-lazy" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+           <div class=" mt-lg-4">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 bg-white shadow-sm">
+                        <div class="profile border-bottom" >
+                            <div class="card p-lg-4 text-center border-0 " >
+                                <img src="./img/download.png" width="100px" class="mx-auto my-sm-3"  alt="">
+                                <div class="card-text font-weight-bolder">
+                                    Thanh Liem Dang
+                                </div>
+                                <i class="text-primary small">Administrator</i>
+                            </div>
+                        </div>
+                        <div class="navigation p-4">
+                            <div class="border-bottom">
+                                <div class="mb-md-4 ">
+                                    NAVIGATIONS
+                                </div>
+                                <ul class="list-inline nav navbar-nav">
+                                    <li class="list-inline-item col-form-label " class=''>
+                                       <button class="btn btn-transparent text-primary">  <i class="fas fa-tachometer-alt "></i></button><a href="#" class="text-decoration-none text-dark">Dashboard<i class="fas fa-caret-down right"></i></a>
+                                        
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-pen"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Layouts<i class="fas fa-caret-down right"></i></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="border-bottom">
+                                <div class="my-md-4">
+                                    FEARTURE
+                                </div>
+                                <ul class="list-inline nav navbar-nav">
+                                    <li class="list-inline-item col-form-label">
+                                        <button class="btn btn-transparent text-primary">  <i class="far fa-calendar-alt"></i></button> <i class=""></i><a href="#" class="text-decoration-none text-dark ">Calendar</a><i class="fas fa-caret-down "></i>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="far fa-map"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Maps<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary"> <i class="fas fa-text-width"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Typography<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-icons"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Icons<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary"> <i class="fas fa-align-right"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Forms<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-chart-line"></i></button>  <a href="#downs" class=" text-decoration-none text-dark">Graphs<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-table"></i></button> <a href="#downs" class="text-decoration-none text-dark">Tables<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <div class="my-md-4">
+                                    EXTRAS
+                                </div>
+                                <ul class="list-inline nav navbar-nav">
+                                    <li class="list-inline-item col-form-label " class=''>
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-sign-in-alt"></i></button>  <a href="#" class="text-decoration-none text-dark">Login<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-registered"></i></button>  <a href="#downs" class="text-decoration-none text-dark">Register<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    <li class="list-inline-item col-form-label ">
+                                        <button class="btn btn-transparent text-primary">  <i class="fas fa-file-invoice"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Invoice<i class="fas fa-caret-down "></i></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <!-- breadcrumb -->
+                        <div class="header-title-content d-flex py-1 my-0" style="justify-content: space-between;">
+                            <div class="card-title">
+                                <span class="text-primary" style="font-size: 28px;">Form element</span>
+                            </div>
+                            <div class="justify-content-end">
+                                <ol class="d-flex col py-1 my-0 bg-transparent">
+                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Form</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Form element</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- breadcrumb -->
+                        <div class="mb-md-4" >
+                            <div class="row">
+                                <div class="col-md-5 ">
+                                    <div class="bg-white p-sm-4 shadow-sm rounded-sm" style="height: 300px;">
+                                        <div class="card-title ">
+                                            <span class="font-weight-bolder text-uppercase "> 
+                                                Dropdown & Multiple select
+                                            </span>
+                                        </div>
+                                        <div class="my-lg-4">
+                                            <div >
+                                                <span>Select user</span>
+                                                <form>
+                                                    <select name="user-name" class="custom-select border-bottom border-right-0 border-left-0 border-top-0"  >
+                                                      <option selected>User1</option>
+                                                      <option value="user1">Liem Thanh Dang</option>
+                                                      <option value="user2">Nguyen Van A</option>
+                                                      <option value="user3">Do Van Luc</option>
+                                                    </select>
+                                                  </form>
+                                            </div>
+                                        </div>
+                                        <div class="my-lg-4">
+                                            <span>Select Multifile Users</span>
+                                            <div>
+                                                <input type="text" class="form-control border-bottom border-right-0 border-left-0 border-top-0">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="bg-white p-sm-4 shadow-sm rounded-sm " style="height: 300px;"> 
+                                       <div>
+                                           <span class="font-weight-bolder text-uppercase">Files upload options</span>
+                                       </div>
+                                       <div class="d-flex my-lg-4 py-sm-2"> 
+                                           <input type="text" class="form-control border-bottom border-right-0 border-left-0 border-top-0" placeholder="Upload Files - Button">
+                                            <button class="btn btn-primary">UPLOAD</button>
+                                       </div>
+                                       <div class="d-flex my-lg-4 py-sm-2">
+                                            <input type="text" class="form-control border-bottom border-right-0 border-left-0 border-top-0" placeholder="Upload icons - Button">
+                                            <button class="btn btn-success"><i class="fas fa-arrow-circle-up"></i></button>
+                                       </div>
+                                       <div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                <button class="input-group-text">Browser...</button>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="Upload files- front button">
+                                            </div>
+                                       </div> 
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="row my-lg-4">
+                                <div class="col-md-4">
+                                    <div class="bg-white shadow-sm rounded-sm p-sm-4" >
+                                        <div class="mb-sm-4">
+                                            <span class="font-weight-bolder text-uppercase">Drag & Drop upload</span>
+                                        </div>
+                                        <div class="text-center"> 
+                                            <div class="card">
+                                                <img class="card-img-top" src="./img/uoload.png" style=" opacity: 30%;"  alt="Card image">
+                                                <div class="card-img-overlay text-center bg-transparent-10" >
+                                                    <div style="margin-top: 30%;">
+                                                        <button class="btn btn-primary mt-sm-4"><i class="fas fa-arrow-circle-up"></i></button>
+                                                        <div class="mt-sm-4">
+                                                            <span class="text-primary">Select or drap files here</span>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-white shadow-sm rounded-sm p-sm-4" >
+                                        <div class="my-sm-1">
+                                            <span class="font-weight-bolder text-uppercase">Date & time picker</span>
+                                        </div>
+                                        <div class="my-sm-4">
+                                            <input type="text"  class="form-control border-bottom border-right-0 border-left-0 border-top-0" placeholder="Pick a Date">
+                                        </div>
+                                        <div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                <button class="btn btn-transparent"><i class="fas fa-calendar-week"></i></button>
+                                                </div>
+                                                <input type="text" class="form-control border-bottom border-right-0 border-left-0 border-top-0 " placeholder="Upload files- front button">
+                                            </div>
+                                        </div>
+                                        <div class="my-sm-4">
+                                            <input type="text"  class="form-control border-bottom border-right-0 border-left-0 border-top-0" placeholder="Pick a Time">
+                                        </div>
+                                        <div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                <button class="btn btn-transparent"><i class="far fa-clock"></i></button>
+                                                </div>
+                                                <input type="text" class="form-control border-bottom border-right-0 border-left-0 border-top-0" placeholder="Upload files- front button">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-white shadow-sm rounded-sm p-sm-4" >
+                                        <div class="my-sm-4">
+                                            <span class="font-weight-bolder text-uppercase">slides</span>
+                                        </div>
+                                        <div class="my-sm-4">
+                                            <span class="text-gray">Percentaget</span>
+                                            <div>
+                                                <div class="slidecontainer">
+                                                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                                                    <p>Value: <span id="demo"></span></p>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="my-sm-4">
+                                            <span>Ratings</span>
+                                            <div>
+                                                <div class="stepwizard col-md-offset-3">
+                                                    <div class="stepwizard-row setup-panel">
+                                                        <div class="stepwizard-step">
+                                                            <a href="#step-1" type="button" class=" text-warning mt-sm-1" ><i class="fas fa-star"></i></a>
+                                                            <div>1</div>
+                                                        </div>
+                                                        <div class="stepwizard-step">
+                                                            <a href="#step-2" type="button" disabled="disabled" class=" text-warning"><i class="fas fa-star"></i></a>
+                                                            <div>2</div>
+                                                        </div>
+                                                        <div class="stepwizard-step">
+                                                            <a href="#step-3" type="button" disabled="disabled" class=" text-warning"><i class="fas fa-star"></i></a>
+                                                            <div>3</div>
+                                                        </div>
+                                                        <div class="stepwizard-step">
+                                                            <a href="#step-4" type="button" disabled="disabled" class=" text-warning"><i class="fas fa-star"></i></a>
+                                                            <div>4</div>
+                                                        </div>
+                                                        <div class="stepwizard-step">
+                                                            <a href="#step-5" type="button" disabled="disabled" class=" text-warning"><i class="fas fa-star"></i></a>
+                                                            <div>5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="my-md-4">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="bg-white shadow-sm rounded-sm p-sm-4">
+                                        <div class="mb-lg-4">
+                                            <span class="font-weight-bolder text-uppercase">
+                                                checkbox and radio button
+                                            </span>
+                                        </div>
+                                        <div class="my-lg-2">
+                                            <input type="checkbox" checked>
+                                            <span>Checked check box</span>
+                                        </div>
+                                        <div class="my-lg-2">
+                                            <input type="checkbox" >
+                                            <span>Unchecked check box</span>
+                                        </div>
+                                        <div class="my-lg-2">
+                                            <input type="radio" checked>
+                                            <span>Checked Radio</span>
+                                        </div>
+                                        <div class="my-lg-2">
+                                            <input type="radio" >
+                                            <span>Unchecked Radio</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-white shadow-sm rounded-md p-sm-4">
+                                        <div class="mb-lg-4">
+                                            <span class="font-weight-bolder text-uppercase">Switches & toggle</span>
+                                        </div>
+                                        <div class="my-md-2">
+                                            <form>
+                                                <div class="custom-control custom-switch">
+                                                  <input type="checkbox" class="custom-control-input" id="switch1">
+                                                  <label class="haha custom-control-label" for="switch1">Primary toggle Button</label>
+                                                </div>
+                                                <style>
+                                                    .custom-control-label {
+                                                        position: relative;
+                                                        margin-bottom: 0;
+                                                        vertical-align: top;
+                                                    }
+                                                    .custom-control-input:checked~.custom-control-label::before {
+                                                        color: #fff;
+                                                        border-color: rgb(0, 132, 255);
+                                                        background-color: rgb(0, 132, 255);
+                                                    }
+                                                    .custom-control-input1:checked~.custom-control-label::before {
+                                                        color: #fff;
+                                                        border-color: purple;
+                                                        background-color: purple;
+                                                    }
+                                                    .custom-control-input2:checked~.custom-control-label::before {
+                                                        color: #fff;
+                                                        border-color: yellow;
+                                                        background-color: yellow;
+                                                    }
+                                                    .custom-control-input3:checked~.custom-control-label::before {
+                                                        color: #fff;
+                                                        border-color: green;
+                                                        background-color: green;
+                                                    }
+                                                    .custom-control-input4:checked~.custom-control-label::before {
+                                                        color: #fff;
+                                                        border-color: aqua;
+                                                        background-color: aqua;
+                                                    }
+                                                    .custom-control-input5:checked~.custom-control-label::before {
+                                                        color: #fff;
+                                                        border-color: gray;
+                                                        background-color: gray;
+                                                    }
+                                                </style>
+                                              </form>
+                                        </div>
+                                        <div class="my-md-2">
+                                            <form>
+                                                <div class="custom-control custom-switch">
+                                                  <input type="checkbox"  class="custom-control-input1 custom-control-input" checked id="switch2">
+                                                  <label class="custom-control-label" for="switch2">Purple toggle Button</label>
+                                                </div>
+                                                
+                                              </form>
+                                        </div>
+                                        <div class="my-md-2">
+                                            <form>
+                                                <div class="custom-control custom-switch">
+                                                  <input type="checkbox" class="custom-control-input2 custom-control-input" checked id="switch3">
+                                                  <label class="custom-control-label" for="switch3">Yellow toggle Button</label>
+                                                </div>
+                                                
+                                              </form>
+                                        </div>
+                                        <div class="my-md-2">
+                                            <form>
+                                                <div class="custom-control custom-switch">
+                                                  <input type="checkbox" class="custom-control-input3 custom-control-input" checked id="switch4">
+                                                  <label class="custom-control-label" for="switch4">Green toggle Button</label>
+                                                </div>
+                                                
+                                              </form>
+                                        </div>
+                                        <div class="my-md-2">
+                                            <form>
+                                                <div class="custom-control custom-switch">
+                                                  <input type="checkbox" class="custom-control-input4 custom-control-input" checked id="switch5">
+                                                  <label class="custom-control-label" for="switch5">Aqua blue toggle Button</label>
+                                                </div>
+                                               
+                                              </form>
+                                        </div>
+                                        <div class="my-md-2">
+                                            <form>
+                                                <div class="custom-control custom-switch">
+                                                  <input type="checkbox" class="custom-control-input5 custom-control-input" checked id="switch6">
+                                                  <label class="custom-control-label" for="switch6">Disable toggle Button</label>
+                                                </div>
+                                                
+                                              </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+    </div>
+    <style>
+        .custom-control-label1,.custom-control-label2,.custom-control-label3,.custom-control-label4,.custom-control-label5 {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+        .stepwizard-step p {
+            margin-top: 10px;
+        }
     
+        .stepwizard-row {
+            display: table-row;
+        }
+    
+        .stepwizard {
+            display: table;
+            width: 100%;
+            position: relative;
+        }
+    
+        .stepwizard-step button[disabled] {
+            opacity: 1 !important;
+            filter: alpha(opacity=100) !important;
+        }
+    
+        .stepwizard-row:before {
+            top: 14px;
+            bottom: 0;
+            position: absolute;
+            content: " ";
+            width: 100%;
+            height: 5px;
+            background-color: #ccc;
+            z-order: 0;
+        }
+    
+        .stepwizard-step {
+            display: table-cell;
+            text-align: center;
+            position: relative;
+        }
+    
+        .btn-circle {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding: 6px 0;
+            font-size: 12px;
+            line-height: 1.428571429;
+            border-radius: 15px;
+        }
+    </style>
+    <style>
+        .slidecontainer {
+          width: 100%;
+        }
+        
+        .slider {
+          -webkit-appearance: none;
+          width: 100%;
+          height: 10px;
+          border-radius: 5px;
+          background: #d3d3d3;
+          outline: none;
+          opacity: 0.7;
+          -webkit-transition: .2s;
+          transition: opacity .2s;
+        }
+        
+        .slider:hover {
+          opacity: 1;
+        }
+        
+        .slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 25px;
+          height: 25px;
+          border-radius: 50px;
+          background: #035fe9;
+          cursor: pointer;
+        }
+        
+        .slider::-moz-range-thumb {
+          width: 25px;
+          height: 25px;
+          border-radius: 50px;
+          background: #035fe9;
+          cursor: pointer;
+        }
+        </style>
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+              output.innerHTML = this.value + "%";
+            }
+            </script>
+        <script>
+
+        jQuery(".owl-carousel-banner").owlCarousel({
+            autoplay: true,
+            lazyLoad: true,
+            loop: true,
+            margin: 50,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 800,
+
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+
+            }
+        });
+    </script>
+    
+    
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
 </body>
 </html>
