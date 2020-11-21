@@ -15,7 +15,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    
+
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
@@ -43,9 +43,9 @@
                     </div>
                 <!-- users -->
                     <div class="btn-group ml-0 ml-lg-4">
-                        <a href="#" class="icon-user icon-dropdown text-decoration-none p-2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="#" class="icon-user d-flex icon-dropdown text-decoration-none p-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img src="./img/download.png" width="27px" height="27px" class="" style="border-radius: 50%;" alt="">
-                            <span class="font-weight-bolder text-white">Liem Thanh Dang</span>
+                            <span class="font-weight-bolder text-white collapse navbar-collapse">Liem Thanh Dang</span>
                         </a>
                         <div class="dropdown-user dropdown-menu dropdown-menu-right mt-0 mt-lg-1 border-0 rounded-sm shadow text-center">
                             <div class="media-body d-flex p-2" style="width: 300px;">
@@ -96,7 +96,7 @@
     <div class=" mt-lg-4">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-3 bg-white shadow-sm">
+                <div class="col-md-3 bg-white shadow-sm my-sm-2">
                     <div class="profile border-bottom" >
                         <div class="card p-lg-4 text-center border-0 " >
                             <img src="./img/download.png" width="100px" class="mx-auto my-sm-3"  alt="">
@@ -117,37 +117,67 @@
                                      
                                 </li>
                                 <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary">  <i class="fas fa-pen"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Layouts<i class="fas fa-caret-down right"></i></a>
+                                    <button class="btn btn-transparent text-primary">
+                                        <i class="fas fa-pen"></i>
+                                    </button> 
+                                    <a href="#downs" class=" text-decoration-none text-dark">
+                                        Layouts<i class="fas fa-caret-down right"></i>
+                                    </a>
                                 </li> 
                             </ul>
                         </div>
                         <div class="border-bottom">
-                            <div class="my-md-4">
+                            <div class="my-sm-4">
                                 FEARTURE
                             </div>
-                            <ul class="list-inline nav navbar-nav">
-                                <li class="list-inline-item col-form-label">
-                                    <button class="btn btn-transparent text-primary">  <i class="far fa-calendar-alt"></i></button> <i class=""></i><a href="#" class="text-decoration-none text-dark ">Calendar</a><i class="fas fa-caret-down "></i>
-                                </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary">  <i class="far fa-map"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Maps<i class="fas fa-caret-down "></i></a>
-                                </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary"> <i class="fas fa-text-width"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Typography<i class="fas fa-caret-down "></i></a>
-                                </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary">  <i class="fas fa-icons"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Icons<i class="fas fa-caret-down "></i></a>
-                                </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary"> <i class="fas fa-align-right"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Forms<i class="fas fa-caret-down "></i></a>
-                                </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary">  <i class="fas fa-chart-line"></i></button>  <a href="#downs" class=" text-decoration-none text-dark">Graphs<i class="fas fa-caret-down "></i></a>
-                                </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary">  <i class="fas fa-table"></i></button> <a href="#downs" class="text-decoration-none text-dark">Tables<i class="fas fa-caret-down "></i></a>
-                                </li>
-                            </ul>
+                            <div class="product-category-right form-list ">
+                                <nav class='animated bounceInDown'>
+                                    <ul class="list-inline nav navbar-nav">
+                                        
+                                        <li class="list-inline-item col-form-label">
+                                            <button class="btn btn-transparent text-primary">  
+                                                <i class="far fa-calendar-alt"></i>
+                                            </button> 
+                                            <i class=""></i>
+                                            <a href="#" class="text-decoration-none text-dark ">
+                                                Calendar<div class="fas fa-caret-down right"></div></i>
+                                            </a>
+                                            
+                                        </li>
+                                        <li class="list-inline-item col-form-label sub-menu" class=''>
+                                            <a href="#downs" class=" text-decoration-none text-dark">
+                                                <button class="btn btn-transparent text-primary">  
+                                                    <i class="far fa-map"></i>
+                                                </button>
+                                                Maps<div class="fas fa-caret-down right"></div></i>
+                                            </a>
+                                            
+                                        </li>
+                                        <li class="list-inline-item col-form-label ">
+                                                <a href="#downs" class=" text-decoration-none text-dark">
+                                                    <button class="btn btn-transparent text-primary"> 
+                                                        <i class="fas fa-text-width"></i>
+                                                    </button> 
+                                                    Typography<i class="fas fa-caret-down "></i>
+                                                </a>
+                                        </li>
+                                        <li class="list-inline-item col-form-label ">
+                                            <button class="btn btn-transparent text-primary">  <i class="fas fa-icons"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Icons<i class="fas fa-caret-down "></i></a>
+                                        </li>
+                                        <li class="list-inline-item col-form-label ">
+                                            <button class="btn btn-transparent text-primary"> <i class="fas fa-align-right"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Forms<i class="fas fa-caret-down "></i></a>
+                                        </li>
+                                        <li class="list-inline-item col-form-label ">
+                                            <button class="btn btn-transparent text-primary">  <i class="fas fa-chart-line"></i></button>  <a href="#downs" class=" text-decoration-none text-dark">Graphs<i class="fas fa-caret-down "></i></a>
+                                        </li>
+                                        <li class="list-inline-item col-form-label ">
+                                            <button class="btn btn-transparent text-primary">  <i class="fas fa-table"></i></button> <a href="#downs" class="text-decoration-none text-dark">Tables<i class="fas fa-caret-down "></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                           
+                            
                         </div>
                         <div class="">
                             <div class="my-md-4">
@@ -160,15 +190,19 @@
                                 <li class="list-inline-item col-form-label ">
                                     <button class="btn btn-transparent text-primary">  <i class="fas fa-registered"></i></button>  <a href="#downs" class="text-decoration-none text-dark">Register<i class="fas fa-caret-down "></i></a>
                                 </li>
-                                <li class="list-inline-item col-form-label ">
-                                    <button class="btn btn-transparent text-primary">  <i class="fas fa-file-invoice"></i></button> <a href="#downs" class=" text-decoration-none text-dark">Invoice<i class="fas fa-caret-down "></i></a>
+                                <li class="list-inline-item col-form-label sub-menu">
+                                        <a href="#" class=" text-decoration-none text-dark">
+                                            <button class="btn btn-transparent text-primary">  
+                                                <i class="fas fa-file-invoice"></i></button> 
+                                            Invoice<i class="fas fa-caret-down right"></i>
+                                        </a>
                                 </li>
                                  
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 my-sm-2">
                     <!-- breadcrumb -->
                     <div class="header-title-content d-flex py-1 my-0" style="justify-content: space-between;">
                         <div class="card-title">
@@ -183,8 +217,8 @@
                     <!-- breadcrumb -->
                     
                     <div class="row">
-                        <div class="col-md-3">
-                            <div class="bg-white p-4 shadow-sm rounded">
+                        <div class="col-md-3 my-sm-2">
+                            <div class="bg-white p-4 shadow-sm rounded ">
                                 <div class="d-flex justify-content-between">
                                     <span class="font-weight-bolder text-uppercase">Unique visitors</span>
                                     <button type="button" class="btn bg-transparent py-0"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
@@ -203,8 +237,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="bg-white p-4 shadow-sm rounded">
+                        <div class="col-md-3 my-sm-2">
+                            <div class="bg-white p-4 shadow-sm rounded ">
                                 <div class="d-flex justify-content-between">
                                     <span class="font-weight-bolder text-uppercase">total subcriptions</span>
                                     <button type="button" class="btn bg-transparent py-0"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
@@ -223,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 my-sm-2">
                             <div class="bg-white p-4 shadow-sm rounded">
                                 <div class="d-flex justify-content-between">
                                     <span class="font-weight-bolder text-uppercase">net profit (sale)</span>
@@ -243,7 +277,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 my-sm-2">
                             <div class="bg-white p-4 shadow-sm rounded">
                                 <div class="d-flex justify-content-between">
                                     <span class="font-weight-bolder text-uppercase">daily sale</span>
@@ -265,7 +299,7 @@
                         </div>
                     </div>
                     <div class="row my-sm-4">
-                        <div class="col-md-5">
+                        <div class="col-md-5 my-sm-2">
                             <div class="bg-white p-4 shadow-sm rounded">
                                 <div>
                                     <span class="font-weight-bolder text-uppercase">visitors overview</span>
@@ -275,7 +309,7 @@
                                 </figure>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 my-sm-2">
                             <div class="bg-white p-4 shadow-sm rounded">
                                 <div>
                                     <span class="font-weight-bolder text-uppercase">sales by category</span>
@@ -285,42 +319,42 @@
                                 </figure>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 my-sm-2">
                             <div class="bg-white p-4 shadow-sm rounded" >
                                 <div class="mb-sm-4">
                                     <span class="font-weight-bolder text-uppercase">inbox</span>
                                 </div>
                                 <div class="d-flex my-sm-2">
                                     <img src="./img/inbox user.jpg" width="30px" height="30px" style="border-radius: 50%; border: 2px solid rgb(145, 255, 118);" alt="">
-                                    <span class="ml-lg-4">
+                                    <span class="ml-sm-4">
                                         <span class="font-weight-bolder">Thanh Liem Dang</span>
                                         
                                     </span>
                                 </div>
                                 <div class="d-flex my-sm-2">
                                     <img src="./img/inbox user.jpg" width="30px" height="30px" style="border-radius: 50%; border: 2px solid rgb(145, 255, 118);" alt="">
-                                    <span class="ml-lg-4">
+                                    <span class="ml-sm-4">
                                         <span class="font-weight-bolder">Thanh Liem Dang</span>
                                         
                                     </span>
                                 </div>
                                 <div class="d-flex my-sm-2">
                                     <img src="./img/inbox user.jpg" width="30px" height="30px" style="border-radius: 50%; border: 2px solid rgb(145, 255, 118);" alt="">
-                                    <span class="ml-lg-4">
+                                    <span class="ml-sm-4">
                                         <span class="font-weight-bolder">Thanh Liem Dang</span>
                                         
                                     </span>
                                 </div>
                                 <div class="d-flex my-sm-2">
                                     <img src="./img/inbox user.jpg" width="30px" height="30px" style="border-radius: 50%; border: 2px solid rgb(145, 255, 118);" alt="">
-                                    <span class="ml-lg-4">
+                                    <span class="ml-sm-4">
                                         <span class="font-weight-bolder">Thanh Liem Dang</span>
                                         
                                     </span>
                                 </div>
                                 <div class="d-flex my-sm-2">
                                     <img src="./img/inbox user.jpg" width="30px" height="30px" style="border-radius: 50%; border: 2px solid rgb(145, 255, 118);" alt="">
-                                    <span class="ml-lg-4">
+                                    <span class="ml-sm-4">
                                         <span class="font-weight-bolder">Thanh Liem Dang</span>
                                         
                                     </span>
@@ -329,8 +363,8 @@
                         </div>
                     </div>
                     <div class="row my-sm-4">
-                        <div class="col-md-9">
-                            <div class="p-lg-4 bg-white rounded-sm shadow-sm">
+                        <div class="col-md-9 my-sm-2">
+                            <div class="p-4 bg-white rounded-sm shadow-sm">
                                 <div class="my-sm-4">   
                                     <span class="font-weight-bolder text-uppercase">project Progress</span>
                                 </div>
@@ -469,8 +503,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="p-lg-4 bg-white rounded-sm shadow-sm">
+                        <div class="col-sm-3 my-sm-2">
+                            <div class="p-sm-4 bg-white rounded-sm shadow-sm">
                                 <div class="mb-sm-4">
                                     <span class="font-weight-bolder text-uppercase">Countrys</span>
                                 </div>
@@ -723,6 +757,8 @@
     </div>
 </div>
 
+
+
 <script>
     Highcharts.chart('container111', {
     chart: {
@@ -813,10 +849,13 @@ Highcharts.chart('container112', {
 </script>
 
 
+
 <script src="./js/jquery-3.3.1.slim.min.js"></script>
 <script src="./js/popper.min.js"></script>
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./js/swiper-bundle.min.js"></script>
+
+
 
 </body>
 </html>
