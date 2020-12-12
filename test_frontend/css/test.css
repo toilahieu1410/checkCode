@@ -1,0 +1,77 @@
+body{
+
+}
+head{
+
+}
+.img-background{
+    background-image: url("../images/hero-image.png");
+    background-repeat: no-repeat;
+
+}
+
+element.style {
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.title-main{
+    height: 100%;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 200px;
+    animation-name: fadeInUp;
+}
+.title-comment{
+    padding-left: 200px;
+    font-size: 20px;
+    width: 50%;
+    color: rgb(192, 192, 192);
+    font-family: 'Font Awesome 5 Free';
+}
+.title-links{
+    padding-left: 200px;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 10px 30px -5px rgba(10, 16, 34, .2);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.set-btn{
+    webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.set-btn:hover{
+    background-color: transparent !important;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    color: white;
+    border: 1px solid transparent;
+}
+.set-a::before{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    opacity: 0.4;
+    transition: all 200ms ease;
+}
+ul li{
+    list-style: none;
+}
