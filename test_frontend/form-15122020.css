@@ -21,13 +21,10 @@ body {
   max-width: 650px;
   margin: 35px auto;
 }
-button {
-    padding: .5em 1em;
-    border: none;
-    border-radius: 30px;
-    margin: 1em;
-    color: rgb(255, 255, 255);
-    background: #253642;
-    font-size: 12px;
-    outline: none;
-  }
+
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+   background-color: white;
+   border: none;
+}
