@@ -341,4 +341,32 @@ body a{
 }
 .main-content1{
 	padding: 1em 0;
+	text-align: center;
+}
+.site-title{
+	margin-top: 1.5em;
+	color: #007b70;
+	font-family: cursive;
+}
+.site-comment{
+	font-size: 18px;
+	margin-top: 1em;
+	color: gray;	
+}
+.set-site-content{
+	margin-top: 1.5em;
+}
+.set-album-content{
+	position: relative;
+}
+.set-sheet-content{
+	position: relative;
+}
+.hidden-appear{
+	display: none;
+	position: absolute;
+}
+.hidden-appear1{
+	display: none;
+	position: absolute;
 }
