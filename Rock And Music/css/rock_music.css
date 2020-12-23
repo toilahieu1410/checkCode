@@ -11,6 +11,54 @@ body a{
 	-ms-transition: 0.5s all;
 	text-decoration:none;
 }
+.font-set{
+	font-family: cursive;
+}
+.text-white{
+	color: white !important;
+}
+.m-4{
+	margin: 1.5rem;
+}
+.mt-4{
+	margin-top: 1.5rem;
+}
+.ml-4{
+	margin-left: 1.5rem;
+}
+.mr-4{
+	margin-right: 1.5rem;
+}
+.mb-4{
+	margin-bottom: 1.5rem;
+}
+.my-4{
+	margin: 1.5rem 0;
+}
+.mx-4{
+	margin: 0 1.5rem;
+}
+.p-4{
+	padding: 1.5rem;
+}
+.pt-4{
+	padding-top: 1.5rem;
+}
+.pl-4{
+	padding-left: 1.5rem;
+}
+.pr-4{
+	padding-right: 1.5rem;
+}
+.pb-4{
+	padding-bottom: 1.5rem;
+}
+.py-4{
+	padding: 1.5rem 0;
+}
+.px-4{
+	padding: 0 1.5rem;
+}
 .header-content{
 	position: relative;
 }
@@ -362,11 +410,184 @@ body a{
 .set-sheet-content{
 	position: relative;
 }
+
 .hidden-appear{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
 	display: none;
 	position: absolute;
+	top: 0;
+	-webkit-animation: fadein 1s linear forwards;
+	animation: fadein 1s linear forwards;
+	transition: 1s;
 }
-.hidden-appear1{
-	display: none;
-	position: absolute;
+.set-album-content:hover .hidden-appear{
+	display: block;
+	top: 0;
+	background-color: rgba(1, 10, 32, 0.363);
+	-webkit-animation: fadein 1s linear forwards;
+	animation: fadein 1s linear forwards;
+	transition: 1s;
+}
+.set-sheet-content:hover .hidden-appear{
+	top: 0;
+	display: block;
+	background-color: rgba(1, 10, 32, 0.363);
+	-webkit-animation: fadein 1s linear forwards;
+	animation: fadein 1s linear forwards;
+	transition: 1s;
+} 	
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  20% {opacity: 0.2;}
+  50% { opacity: 0.5; }
+  70% {opacity: 0.7;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadein {
+	0% { opacity: 0; }
+	20% {opacity: 0.2;}
+	50% { opacity: 0.5; }
+	70% {opacity: 0.7;}
+	100% {opacity: 1;}
+}
+.event-part{
+	background-image: url(../images/1.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:400px;
+	background-attachment: fixed;
+}
+.event-content{
+	align-items: center;
+}
+.event-title{
+	
+	color: #01a798;
+	font-family: cursive;;
+}
+.event-content h1{
+	font-size: 42px;
+}
+.event-content h1, .event-content h1 span{
+	color: #ff4c4c;
+	font-family: cursive;
+}
+.event-content h5{
+	color: #ff4c4c;
+	font-family: cursive;
+	font-size: 28px;
+	margin-left: 2em;
+}
+.event-content h5 a{
+	color: #ff4c4c;
+	transition: 1s;
+	text-decoration: none;
+}
+.event-content h5 a:hover{
+	color: white;
+	transition: 1s;
+	text-decoration: none;
+}
+.event-content h1 span{
+	font-size: 26px;
+}
+.event-content h1::after{
+	content: '';
+    background: rgba(255, 252, 252, 0.767);
+    display: block;
+    width: 55px;
+    height: 2px;
+    position: absolute;
+    left: 19%;
+    -webkit-transform: rotate(118deg);
+    transform: rotate(118deg);
+    -moz-transform: rotate(118deg);
+    -o-transform: rotate(118deg);
+    -ms-transform: rotate(118deg);
+    top: 27%;
+}
+.event-comment{
+	margin-top: 4.5rem;
+}
+.set-image-album{
+	background-image: url(../images/img3.jpg);
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	transition: 2s;
+}
+.album-hover-set{
+	width: 100%;
+	background-color: #1d1d1d;
+	color: white;
+	transition: 1s;
+	padding-bottom: 3.5rem;
+}
+.set-hover-content:hover .album-hover-set
+{
+	background-color: #007b70;
+	color: white;
+	transition: 1s;
+}
+.album-hover-set a{
+	transition: 1s;
+	text-decoration: none;
+}
+.set-hidden{
+	overflow: hidden;
+}
+.set-hover-content:hover .set-image-album{
+	transform: scale(1.5);
+	background-attachment: fixed;
+	background-position: center;
+	transition: 2s;
+}
+.album-hover-set a:hover
+{
+	margin-left: 1em;
+	transition: 1s;
+	text-decoration: none;
+}
+.background-image-footer{
+	width: 100%;
+	background-image: url(../images/3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-content{
+	background-color: #286b5771;
+}
+a{
+	text-decoration: none !important;
+}
+.list-navigation ul li{
+	list-style: none;
+}
+.hover-end{
+	color: white;
+}
+.hover-end1{
+	color: #9e0c0c;
+}
+.hover-end:hover{
+	color: #9e0c0c;
+}
+.title-footer{
+	color: #ffd400;
+}
+.my-3{
+	margin: 1rem 0;
+}
+.align-items-center{
+	align-items: center;
+}
+.copy-right{
+	background-color: rgb(19, 19, 19);
+	padding: 1em;
 }
