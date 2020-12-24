@@ -737,3 +737,8 @@ a{
 	background-color:#007b70 !important;
 	cursor: pointer;
 }
+/* short codes */
+.set-border{
+	border: 1px solid rgba(184, 184, 184, 0.753);
+	box-shadow: 0 2px 4px rgba(184, 184, 184, 0.753);
+}
