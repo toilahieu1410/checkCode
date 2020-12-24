@@ -13,8 +13,7 @@
             scrollSpeed:1000,easingType:'linear'
         },
         settings=$.extend(defaults,options),
-        containerIDhash='#'+settings.containerID,c
-        ontainerHoverIDHash='#'+settings.containerHoverID;
+        containerIDhash='#'+settings.containerID,containerHoverIDHash='#'+settings.containerHoverID;
         $('body').append('<a href="#" id="'+settings.containerID+'">'+settings.text+'</a>');
         $(containerIDhash).hide().on('click.UItoTop',
         function()
