@@ -11,6 +11,9 @@ body a{
 	-ms-transition: 0.5s all;
 	text-decoration:none;
 }
+.label{
+	font-weight: 500;
+}
 .font-set{
 	font-family: cursive;
 }
@@ -219,6 +222,28 @@ body a{
 	-webkit-border-radius:50%;
 	border-radius: 50%;
 }
+.set-icon-header1{
+	color: white;
+	display: flex;
+}
+.set-icon-header1 a{
+	color: white;
+	width: 35px;
+	font-size: 20px;
+	height: 35px;
+	border : 1px solid white;
+	margin: 0 10px;
+}
+.set-icon-header1 a i.fa{
+    margin-top: 7px;
+}
+.set-icon-header1 a:hover{
+	color: rgb(255, 230, 0);
+	border : 1px solid  rgb(255, 230, 0);
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+}
 @-webkit-keyframes bounceIn {
 	0% { 
 	  -webkit-transform: scale(.8);
@@ -290,7 +315,7 @@ body a{
 	padding: 0;
 	list-style: none;
 	text-align: center;
-	width: 57%;
+	width: 65%;
 	margin: 0 auto;
   }
   .main-nav ul li{
@@ -428,6 +453,17 @@ body a{
 	animation: fadein 1s linear forwards;
 	transition: 1s;
 }
+.hidden-appear-h3{
+	margin-top: 3em; 
+	font-family: cursive; 
+	font-size: 36px;
+	transition: 1s;
+}
+.hidden-appear-h5{
+	margin-top: 3em; 
+	font-family: cursive;
+	transition: 1s;
+}
 .set-album-content:hover .hidden-appear{
 	display: block;
 	top: 0;
@@ -460,6 +496,7 @@ body a{
 	70% {opacity: 0.7;}
 	100% {opacity: 1;}
 }
+
 .event-part{
 	background-image: url(../images/1.jpg); 
 	background-size: cover;
@@ -741,4 +778,210 @@ a{
 .set-border{
 	border: 1px solid rgba(184, 184, 184, 0.753);
 	box-shadow: 0 2px 4px rgba(184, 184, 184, 0.753);
+}
+
+
+/* responsive */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.main-nav ul{
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		width: 100% !important; 
+		margin: 0 auto;
+	}
+	.hidden-appear-h3{
+		margin-top: 2em; 
+		font-family: cursive; 
+		font-size: 28px;
+		transition: 1s;
+	}
+	.hidden-appear-h5{
+		margin-top: 3em; 
+		font-family: cursive;
+		font-size: 14px;
+		transition: 1s;
+	}
+	.album-hover-set h1{
+		font-size:28px;
+	}
+	.event-content h1{
+		font-size: 34px;
+	}
+	.event-content h1 span{
+		font-size: 24px;
+	}
+	.event-content h5{
+		font-size: 19px;
+	}
+	.event-content h1::after {
+		content: '';
+		background: rgba(255, 252, 252, 0.767);
+		display: block;
+		width: 70px;
+		height: 2px;
+		position: absolute;
+		left: 17%;
+		-webkit-transform: rotate(118deg);
+		transform: rotate(118deg);
+		-moz-transform: rotate(118deg);
+		-o-transform: rotate(118deg);
+		-ms-transform: rotate(118deg);
+		top: 27%;
+	}
+	.spindle {
+		width: 49%;
+		padding: 0.5em;
+		text-align: center;
+		background-color: #007b70;
+		margin-left: 24%;
+	}
+	.set-icon-header1 a {
+		color: white;
+		width: 25px;
+		font-size: 10px;
+		height: 25px;
+		border: 1px solid white;
+		margin: 0 7px;
+	}
+	.out-team-hover h2{
+		font-size: 23px;
+	}
+	.out-blog-title h5 {
+		font-size: 24px;
+	}
+	.responsive-iframe1{
+		width: 100%;
+		height: 300px;
+		border: none;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1197px) 
+{
+	.main-nav ul{
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.hidden-appear-h3{
+		margin-top: 3em; 
+		font-family: cursive; 
+		font-size: 28px;
+		transition: 1s;
+	}
+	.hidden-appear-h5{
+		margin-top: 3em; 
+		font-family: cursive;
+		font-size: 14px;
+		transition: 1s;
+	}
+	.album-hover-set{
+		width: 100%;
+		background-color: #1d1d1d;
+		color: white;
+		transition: 1s;
+		padding-bottom: 1rem;
+	}
+	.album-hover-set h1{
+		font-size:28px;
+	}
+	.set-hover-content .p-4{
+		padding: 1rem;
+	}
+	.event-content h1{
+		font-size: 36px;
+	}
+	.event-content h1 span{
+		font-size: 24px;
+	}
+	.event-content h5{
+		font-size: 24px;
+	}
+	.event-content h1::after {
+		content: '';
+		background: rgba(255, 252, 252, 0.767);
+		display: block;
+		width: 70px;
+		height: 2px;
+		position: absolute;
+		left: 17%;
+		-webkit-transform: rotate(118deg);
+		transform: rotate(118deg);
+		-moz-transform: rotate(118deg);
+		-o-transform: rotate(118deg);
+		-ms-transform: rotate(118deg);
+		top: 27%;
+	}
+	.set-icon-header1 a {
+		color: white;
+		width: 32px;
+		font-size: 16px;
+		height: 32px;
+		border: 1px solid white;
+		margin: 0 7px;
+	}
+	.out-team-hover h2{
+		font-size: 23px;
+	}
+	.out-blog-title h5 {
+		font-size: 24px;
+	}
+	.responsive-iframe1{
+		width: 100%;
+		height: 400px;
+		border: none;
+	}
+}
+@media screen and (min-width: 1198px) and (max-width: 1360px)
+{
+	.main-nav ul{
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.hidden-appear-h3{
+		margin-top: 4em; 
+		font-family: cursive; 
+		font-size: 28px;
+		transition: 1s;
+	}
+	.hidden-appear-h5{
+		margin-top: 3em; 
+		font-family: cursive;
+		font-size: 14px;
+		transition: 1s;
+	}
+}
+@media (max-width:1280px)
+{
+	.main-nav ul{
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.banner-under .box-round {
+		width: 68px;
+		height: 68px;
+		color: #999;
+		font-size: 36px;
+		border: 1px solid #999;
+		border-radius: 50%;
+		padding: 0 0.3em;
+		text-align: center;
+		/* margin-right: 1em; */
+		margin-left: 37%;
+	}
+	.banner-under {
+		align-items: center;
+		text-align: center;
+		transition: 0.5s;
+		 display: block;
+	}
 }
