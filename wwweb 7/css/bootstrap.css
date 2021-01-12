@@ -84,6 +84,62 @@ sup {
 sub {
   bottom: -.25em;
 }
+
+/* bonus */
+.text-white{
+  color: white !important;
+}
+.text-dark{
+  color: black;
+}
+
+.my-4{
+  margin: 1.5rem 0;
+}
+.mx-4{
+  margin: 0 1.5rem;
+}
+.mt-4{
+  margin-top: 1.5rem;
+}
+.mb-4{
+  margin-bottom: 1.5rem;
+}
+.ml-4{
+  margin-left: 1.5rem;
+}
+.mr-4{
+  margin-right: 1.5rem;
+}
+.m-4{
+  margin: 1.5rem;
+}
+.p-4{
+  padding: 1.5rem;
+}
+.py-4{
+  padding: 1.5rem 0;
+}
+.px-4{
+  padding: 0 1.5rem;
+}
+.pl-4{
+  padding-left: 1.5rem;
+}
+.pr-4{
+  padding-right: 1.5rem;
+}
+.pb-4
+{
+  padding-bottom: 1.5rem;
+}
+.pt-4{
+  padding-top: 1.5rem;
+}
+
+/*  */
+
+
 img {
   border: 0;
 }
@@ -1366,10 +1422,10 @@ a.text-warning:hover {
   color: #66512c;
 }
 .text-danger {
-  color: #a94442;
+  color: #eb4b48;
 }
 a.text-danger:hover {
-  color: #843534;
+  color: #a14341;
 }
 .bg-primary {
   color: #fff;

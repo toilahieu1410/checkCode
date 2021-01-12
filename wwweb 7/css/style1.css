@@ -131,22 +131,59 @@ body a:focus {
 	-moz-background-size: cover;
 	min-height:780px;
 }
-.learn-more-modal::before{
-    content: '';
-    width: 80%;
-    height: 2px;
+.callbacks_tabs{
+    list-style: none;
     position: absolute;
-    left: 100%;
-    top: 40%;
+    top: 46%;
+    left: 13%;
+    padding: 0;
+    margin: 0;
+    display: block;
+       z-index: 99;
+}
+.callbacks_tabs{
+    display: block;
+    margin: 2px 0;
+}
+.callbacks_tabs a{
+    visibility: hidden;
+}
+.learn-more-hover{
+    position: relative;
+}
+.learn-more-hover a:hover::after{
+    transform: scale3d(1, 1, 1);
+    transition-delay: 0s;
+}
+.learn-more-hover a::after{
+    background: rgb(22, 142, 234);
+    transform: scale3d(0, 1, 1);
+    transform-origin: left center;
+    transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1) 0s;
+}
+.learn-more-hover a{
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+}
+.learn-more-hover a::before{
+    content: '';
+    width: 80px;
+    height: 2px;
+    top: 13px;
+    left:16rem;
+    position: absolute;
+    transition: 1s all;
     background-color: #fff;
 }
-.learn-more-modal::after{
 
-}
 nav.navbar.navbar-default.navbar-fixed-top {
     background: rgba(0, 0, 0, 0.65);
     z-index: 9999;
     padding: 14px;
+    transition: all 0.5s ease 0s;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -161,6 +198,16 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: rgb(255, 255, 255);
     background-color: rgb(22, 142, 234);
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px!important;
 }
 .navbar-brand {
     float: left;
@@ -181,7 +228,91 @@ nav.navbar.navbar-default.navbar-fixed-top {
     padding-top: 10px; 
     padding-bottom: 10px; 
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+.navbar-default .navbar-nav > li > a:hover{
     color: rgb(52, 129, 218);
     background-color: transparent;
 }
+.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+    color: white;
+    background-color:  rgb(52, 129, 218);
+}
+.button-down-event{
+    position: absolute;
+    top: 62rem;
+    right: 50%;
+    z-index: 100;
+    animation: 2s ease-in-out 0s infinite normal none running bounce;
+}
+.button-down-status{
+    font-size: 25px;
+    border: 2px dashed #fff;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100%  { -ms-transform: translateY(0); }
+	0%, 20%, 60%, 100%  { -o-transform: translateY(0); }
+	0%, 20%, 60%, 100%  { -moz-transform: translateY(0); }
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
+.fa-long-arrow-down::before{
+    content: "\f175";
+}
+.img-banner{
+    position: relative;
+}
+
+/* about */
+.about{
+    position: relative;
+}
+.about-title{
+    padding: 50px 30px;
+}
+.under-about-us{
+    font-size: 18px;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-comment {
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* particles - js */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+
+
+
+  /* CLASSES  */
+
+  .classes-title{
+      font-size: 42px;
+  }
+
+
+  /* plans */
+  #plans{
+    background: url(../images/1.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    position: relative; 
+}
+  .plans{
+      
+  }

@@ -20,14 +20,14 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 40,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 1800
         }
       },
       color: {
-        value: '#fff'
+        random:true
       },
       shape: {
         type: 'circle',
@@ -67,7 +67,9 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: {
+          random: true
+        },
         opacity: 1,
         width: 1
       },
@@ -102,7 +104,7 @@ var pJS = function(tag_id, params){
       },
       modes: {
         grab:{
-          distance: 100,
+          distance: 200,
           line_linked:{
             opacity: 1
           }
@@ -117,7 +119,7 @@ var pJS = function(tag_id, params){
           duration: 0.4
         },
         push:{
-          particles_nb: 4
+          particles_nb: 6
         },
         remove:{
           particles_nb: 2
