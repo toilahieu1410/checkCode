@@ -86,6 +86,12 @@ sub {
 }
 
 /* bonus */
+.justify-content-center{
+  justify-content: center;
+}
+.d-flex{
+  display: flex;
+}
 .text-white{
   color: white !important;
 }
