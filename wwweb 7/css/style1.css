@@ -12,6 +12,9 @@ body a{
 	text-decoration:none;
 	outline:none;
 }
+.text-gray{
+    color: rgba(146, 146, 146, 0.966);
+}
 h1,h2,h3,h4,h5,h6{
 	margin:0;
 
@@ -232,10 +235,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     color: rgb(52, 129, 218);
     background-color: transparent;
 }
-.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
-    color: white;
-    background-color:  rgb(52, 129, 218);
-}
+
 .button-down-event{
     position: absolute;
     top: 62rem;
@@ -291,7 +291,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     background-size: cover;
     background-position: 50% 50%;
   }
-  #particles-js2 {
+  #particles-js1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -299,7 +299,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     background-size: cover;
     background-position: 50% 50%;
   }
-  #particles-js1 {
+  #particles-js3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -314,8 +314,34 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
   .classes-title{
       font-size: 42px;
   }
-
-
+.classes-1{
+    position: relative;
+}
+  .classes-hover-event{
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(22, 142, 234);
+    color: white;
+    top:100%;
+    text-align: center;
+    padding: 75% 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+  }
+  .classes-1:hover .classes-hover-event{
+    position: absolute;
+    opacity: 1;
+    background-color:rgb(22, 142, 234);
+    color: white;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+  }
+.margin-under{
+    margin-bottom: 50px;
+}
   /* plans */
   #plans{
     background: url(../images/1.jpg)no-repeat 0px 0px;
@@ -385,10 +411,21 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     color: rgb(194, 194, 194);
 }
 
+.lesson-hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 2px 1px;
+    transition: all 0.5s ease 0s;
+}
+.lesson-hover:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
 
 /* gallery */
 .gallery-hover{
     position: relative;
+    background-color: #e4e4e4;
+    overflow:hidden;
 }
 
 .happy-student{
@@ -463,4 +500,71 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     background-attachment: fixed;
     position: relative;
     
+}
+
+.set-input-contact{
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border: 1px solid #80808040;
+    width: 100%;
+    outline: none;
+    color: white;
+}
+
+.textarea-contact{
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border: 1px solid  #80808040;
+    width: 100%;
+    height: 190px;
+    outline: none;
+    color: white;
+}
+.set-btn-send{
+    padding: 15px 25px;
+    background-color: #168eea;
+    border: 1px solid #168eea;
+    outline: none;
+    color: white;
+}
+.icon-contact{
+    
+}
+.icon-face{
+    border-radius: 50%;
+    padding: 10px 14px;
+    background-color: rgb(103, 136, 206);
+}
+.icon-twitter{
+    border-radius: 50%;
+    padding: 10px 12px;
+    background-color: rgb(51, 204, 255);
+}
+.icon-pin{
+    border-radius: 50%;
+    padding: 10px 12px;
+    background-color: rgb(254, 68, 69);
+}
+.icon-drib{
+    border-radius: 50%;
+    padding: 10px 12px;
+    background-color: rgb(248, 89, 147);
+}
+.icon-google{
+    border-radius: 50%;
+    padding: 10px 9px;
+    background-color: rgb(221, 75, 57);
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom:1%;
+	right: 3%;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/move-up.png") no-repeat 0px 0px;
 }

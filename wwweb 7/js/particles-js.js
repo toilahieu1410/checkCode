@@ -10,7 +10,7 @@ particlesJS("particles-js", {
         }
       },
       "color": {
-        "value": "#ea4c89"
+        "value": "#8aba56"
       },
       "shape": {
         "type": "circle",
@@ -185,11 +185,11 @@ particlesJS("particles-js", {
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "repulse"
         },
         "resize": true
       },
@@ -222,9 +222,7 @@ particlesJS("particles-js", {
     "retina_detect": true
   });
 
-
-
-  particlesJS("particles-js2", {
+  particlesJS("particles-js1", {
     "particles": {
       "number": {
         "value": 80,
@@ -234,7 +232,7 @@ particlesJS("particles-js", {
         }
       },
       "color": {
-        "value": "#ea4c89"
+        "value": "#ff8833"
       },
       "shape": {
         "type": "circle",
@@ -335,9 +333,7 @@ particlesJS("particles-js", {
     "retina_detect": true
   });
 
-
-
-  particlesJS("particles-js2", {
+  particlesJS("particles-js3", {
     "particles": {
       "number": {
         "value": 80,
