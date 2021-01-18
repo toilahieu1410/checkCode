@@ -1,0 +1,66 @@
+.wishes {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family: "Clicker Script", cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(245, 59, 59);
+    white-space: break-word;
+    text-align: center;
+    color: transparent;
+   }
+  
+  .breathe1:nth-of-type(1) {
+    -webkit-animation-delay: 0.125s;
+            animation-delay: 0.125s;
+    text-shadow: -21px 0 20px;
+  }
+  
+  .breathe1:nth-of-type(2) {
+    -webkit-animation-delay: 2.0s;
+            animation-delay: 2.0s;
+    text-shadow: -18px 0 20px;
+  }
+  
+  .breathe1:nth-of-type(3) {
+    -webkit-animation-delay: 3.75s;
+            animation-delay: 3.75s;
+    text-shadow: -15px 0 20px;
+  }
+  
+  .breathe1:nth-of-type(4) {
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s;
+    text-shadow: -12px 0 20px;
+  }
+  
+  
+  
+  @-webkit-keyframes breathe1 {
+    12.5% {
+      color:  rgba(255, 251, 0, 0.904);
+    }
+  }
+  
+  @keyframes breathe1 {
+    12.5% {
+      color: rgba(255, 251, 0, 0.904);
+    }
+  }
+  .breathe1 {
+    -webkit-animation: breathe1 12s ease infinite;
+            animation: breathe1 12s ease infinite;
+  }
+  
+  .sandeep {
+    background: linear-gradient(to top left, red, yellow);
+    -webkit-background-clip: text;
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .breathe1 {
+      font-size: 5rem;
+    }
+  }

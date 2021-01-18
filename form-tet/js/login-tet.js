@@ -6,10 +6,10 @@ function initVars(){
 	canvas.height=canvas.clientHeight;
 	cx=canvas.width/2;
 	cy=canvas.height/2;
-	playerZ=-25;
+	playerZ=-115;
 	playerX=playerY=playerVX=playerVY=playerVZ=pitch=yaw=pitchV=yawV=0;
-	scale=600;
-	seedTimer=0;seedInterval=5,seedLife=100;gravity=.02;
+	scale=700;
+	seedTimer=0;seedInterval=20,seedLife=100;gravity=.02;
 	seeds=new Array();
 	sparkPics=new Array();
 	s="https://cantelope.org/NYE/";
@@ -63,8 +63,8 @@ function rasterizePoint(x,y,z){
 function spawnSeed(){
 	
 	seed=new Object();
-	seed.x=-50+Math.random()*100;
-	seed.y=25;
+	seed.x=-10+Math.random()*100;
+	seed.y=10;
 	seed.z=-50+Math.random()*100;
 	seed.vx=.1-Math.random()*.2;
 	seed.vy=-1.5;//*(1+Math.random()/2);
@@ -76,7 +76,7 @@ function spawnSeed(){
 function splode(x,y,z){
 	
 	t=5+parseInt(Math.random()*150);
-	sparkV=1+Math.random()*2.5;
+	sparkV=0+Math.random()*2.5;
 	type=parseInt(Math.random()*3);
 	switch(type){
 		case 0:
@@ -114,7 +114,7 @@ function splode(x,y,z){
 				}
 				break;
 		}
-		spark.radius=25+Math.random()*50;
+		spark.radius=15+Math.random()*50;
 		spark.alpha=1;
 		spark.trail=new Array();
 		sparks.push(spark);
@@ -129,6 +129,9 @@ function splode(x,y,z){
 	pow.volume=1.5/(1+d/10);
 	pow.play();
 }
+
+
+
 
 function doLogic(){
 	
@@ -194,6 +197,9 @@ function rgb(col){
 	return "#"+r.toString(16)+g.toString(16)+b.toString(16);
 }
 
+
+
+
 function draw(){
 	
 	ctx.clearRect(0,0,cx*2,cy*2);
@@ -204,7 +210,7 @@ function draw(){
 			x=i;z=j;y=25;
 			point=rasterizePoint(x,y,z);
 			if(point.d!=-1){
-				size=250/(1+point.d);
+				size=150/(1+point.d);
 				d = Math.sqrt(x * x + z * z);
 				a = 0.75 - Math.pow(d / 100, 6) * 0.75;
 				if(a>0){
