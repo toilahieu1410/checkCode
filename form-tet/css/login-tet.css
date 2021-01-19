@@ -1,12 +1,13 @@
 .img-background{
-    background-image: url(../images/—Pngtree—digital\ technology\ 2021\ happy\ new_1209283.jpg);
+    background-image: url(../images/—Pngtree—robot\ artificial\ intelligence\ robot\ blue_926814.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     width: 100%;
     height: 100vh;
     position: relative;
-}#canvas{ 
+}
+#canvas{ 
 	width:100%;
 	height:100%;
 }
@@ -28,7 +29,6 @@
 }
 
 .all-form{
-  background-image: url(../images/form-back3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -57,14 +57,10 @@
   align-items: center;
 
 }
-
-
-
-
 .message {
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 5%;
+    left: 20%;
     font-weight: 700;
     font-family: "Clicker Script", cursive;
     font-weight: bold;

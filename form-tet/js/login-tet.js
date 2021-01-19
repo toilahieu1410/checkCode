@@ -63,9 +63,9 @@ function rasterizePoint(x,y,z){
 function spawnSeed(){
 	
 	seed=new Object();
-	seed.x=-10+Math.random()*100;
+	seed.x=-110+Math.random()*100;
 	seed.y=10;
-	seed.z=-50+Math.random()*100;
+	seed.z=-150+Math.random()*100;
 	seed.vx=.1-Math.random()*.2;
 	seed.vy=-1.5;//*(1+Math.random()/2);
 	seed.vz=.1-Math.random()*.2;
