@@ -1,0 +1,210 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Black
+FamilyName:SF UI Display
+StyleName:Black
+FullName:SF UI Display Black
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-black-58646a6b80d5a.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:303139
+FileModTime:1483478966
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Bold
+FamilyName:SF UI Display
+StyleName:Bold
+FullName:SF UI Display Bold
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-bold-58646a511e3d9.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:310894
+FileModTime:1483478966
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-cufonfonts.zip
+FileModTime:1611555794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Heavy
+FamilyName:SF UI Display
+StyleName:Heavy
+FullName:SF UI Display Heavy
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-heavy-586470160b9e5.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:312087
+FileModTime:1483478966
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Light
+FamilyName:SF UI Display
+StyleName:Light
+FullName:SF UI Display Light
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-light-58646b33e0551.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:303423
+FileModTime:1483478966
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Medium
+FamilyName:SF UI Display
+StyleName:Medium
+FullName:SF UI Display Medium
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-medium-58646be638f96.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:309652
+FileModTime:1483478966
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Semibold
+FamilyName:SF UI Display
+StyleName:Semibold
+FullName:SF UI Display Semibold
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-semibold-58646eddcae92.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:311134
+FileModTime:1483478966
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Thin
+FamilyName:SF UI Display
+StyleName:Thin
+FullName:SF UI Display Thin
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-thin-58646e9b26e8b.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:294474
+FileModTime:1483478966
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFUIDisplay-Ultralight
+FamilyName:SF UI Display
+StyleName:Ultralight
+FullName:SF UI Display Ultralight
+MenuName:SF UI Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\LIEMDT\checkCode\Font\sf-ui-display-ultralight-58646b19bf205.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:293016
+FileModTime:1483478966
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF UI Display
+NameArray:0,Win,16,SF UI Display
+%EndFont
+

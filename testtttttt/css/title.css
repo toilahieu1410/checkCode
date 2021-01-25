@@ -1,0 +1,202 @@
+         /*Default neerzetten om alles op marge 0 te zetten */
+         
+         * {
+            margin: 0px;
+            padding: 0px;
+          }
+ 
+          body {
+            text-align: center;
+            font-family: Arial, serif;
+
+            background-size: cover;
+            background-position: center;
+          }
+          
+          .quote {
+            font-family: Dancing Script, serif;
+            font-size: 2.0em;
+            height: auto;
+            margin: 0 auto;
+            background-color: #efefef;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            color: #000;
+            box-shadow: -10px 10px 20px rgba(100, 100, 100, .9);
+          }
+          
+          .author {
+            font-family: serif;
+            font-size: .7em;
+            font-style: italic;
+          }
+          
+          .source {
+            font-family: serif;
+            font-size: .7em;
+            font-style: italic;
+          }
+          
+          p {
+            font-size: 1.5em;
+            text-align: center;
+            margin: 20px auto 20px auto;
+            font-weight: bold;
+            color: lightblue;
+          }
+          
+          button {
+            padding: 20px auto 20px auto;
+          }
+          
+          h1 {
+            font-family: Sigmar One;
+            font-weight: bold;
+            color: lightblue;
+          }
+          
+          footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 0px;
+            text-align: left;
+            color: white;
+ }
+
+
+ .message {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  font-weight: 700;
+  font-family: "Clicker Script", cursive;
+  font-weight: bold;
+  font-size: 6rem;
+  color: rgb(245, 59, 59);
+  white-space: break-word;
+  text-align: center;
+  color: transparent;
+}
+
+.breathe:nth-of-type(1) {
+  -webkit-animation-delay: 0.125s;
+          animation-delay: 0.125s;
+  text-shadow: -21px 0 20px;
+}
+
+.breathe:nth-of-type(2) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+  text-shadow: -18px 0 20px;
+}
+
+.breathe:nth-of-type(3) {
+  -webkit-animation-delay: 0.375s;
+          animation-delay: 0.375s;
+  text-shadow: -15px 0 20px;
+}
+
+.breathe:nth-of-type(4) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  text-shadow: -12px 0 20px;
+}
+
+.breathe:nth-of-type(5) {
+  -webkit-animation-delay: 0.625s;
+          animation-delay: 0.625s;
+  text-shadow: -9px 0 20px;
+}
+
+.breathe:nth-of-type(6) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+  text-shadow: -6px 0 20px;
+}
+
+.breathe:nth-of-type(7) {
+  -webkit-animation-delay: 0.875s;
+          animation-delay: 0.875s;
+  text-shadow: -3px 0 20px;
+}
+
+.breathe:nth-of-type(8) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  text-shadow: 0px 0 20px;
+}
+
+.breathe:nth-of-type(9) {
+  -webkit-animation-delay: 1.125s;
+          animation-delay: 1.125s;
+  text-shadow: 3px 0 20px;
+}
+
+.breathe:nth-of-type(10) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+  text-shadow: 6px 0 20px;
+}
+
+.breathe:nth-of-type(11) {
+  -webkit-animation-delay: 1.375s;
+          animation-delay: 1.375s;
+  text-shadow: 9px 0 20px;
+}
+
+.breathe:nth-of-type(12) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  text-shadow: 12px 0 20px;
+}
+
+.breathe:nth-of-type(13) {
+  -webkit-animation-delay: 1.625s;
+          animation-delay: 1.625s;
+  text-shadow: 15px 0 20px;
+}
+
+.breathe:nth-of-type(14) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+  text-shadow: 18px 0 20px;
+}
+
+.breathe:nth-of-type(15) {
+  -webkit-animation-delay: 1.875s;
+          animation-delay: 1.875s;
+  text-shadow: 21px 0 20px;
+}
+
+.breathe:nth-of-type(16) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  text-shadow: 24px 0 20px;
+}
+.breathe:nth-of-type(17) {
+  -webkit-animation-delay: 2.125s;
+          animation-delay: 2.125s;
+  text-shadow: 27px 0 20px;
+}
+
+@-webkit-keyframes breathe {
+  12.5% {
+    color: #c5252d;
+  }
+}
+
+@keyframes breathe1 {
+  12.5% {
+    color:#c5252d ;
+  }
+}
+.breathe1 {
+  -webkit-animation: breathe 5s ease infinite;
+          animation: breathe 5s ease infinite;
+}
+
+.sandeep {
+  background: linear-gradient(to top left, red, yellow);
+  -webkit-background-clip: text;
+  font-size: 3rem;
+}
